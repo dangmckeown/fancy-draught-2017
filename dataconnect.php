@@ -59,7 +59,7 @@ foreach($team['Players'] as $picked){
 
 $compare = ([ $picked[0],$picked[1],$picked[2] ]);
 
-if($test === $compare){
+if($test == $compare){
 
 $players[$i]['manager'] = $team['Name'];
 
@@ -93,12 +93,8 @@ if (is_int($picked[1])){
 $players[$i]['name'] = trim($picked[0]);
 $players[$i]['club'] = $picked[1];
 $players[$i]['position'] = $picked[2];
-echo "<h2>{$players[$i]['position']}</h2>";
-
-echo "<h3>{$picked[2]}</h3>";
-
 $players[$i]['points'] = $picked[1];
-$players[$i]['value'] = "F all" ;
+$players[$i]['value'] = "0" ;
 $players[$i]['manager'] = $team['Name'];
 
 }
