@@ -9,7 +9,7 @@
 
 $pete = array(
 'Name' => "Pete Harmer",
-'Team' => "Dr Aftlove or: How I learned to Stop Worrying and Love Saido Berahino as a <strike>Second</strike> Seventh Round Pick sponsored by Torque, it's what moves boulders Memorial XV",
+'Team' => "Default Team Name Memorial XV",
 'Players' => array(
 (["Begovic",	"Bournemouth", "Goalkeeper"]),
 (["Lloris",	"Spurs", "Goalkeeper"]),
@@ -32,7 +32,7 @@ $pete = array(
 
 $twm = array(
 'Name' => "Twm",
-'Team' => "Midfielders, more midfielders, er, 'ball playing' centre halves, and false 9s Memorial XV",
+'Team' => "Default Team Name Memorial XV",
 'Players' => array(
 (["Pickford",	"Everton", "Goalkeeper"]),
 (["Hennessey",	"Crystal Palace", "Goalkeeper"]),
@@ -57,7 +57,7 @@ $twm = array(
 
 $holly = array(
 'Name' => "Holly 'The Hammer' Hamilton",
-'Team' => "Team GB Rio XVI Memorial XV",
+'Team' => "The Owl and the Pussycat Pea Green Boaters",
 'Players' => array(
 (["Boruc",	"Bournemouth", "Goalkeeper"]),
 (["Mannone",	"Sunderland", "Goalkeeper"]),
@@ -79,7 +79,7 @@ $holly = array(
 ); //End $holly
 $samg = array(
 'Name' => "Samuel E Green",
-'Team' => "Jean-Claude Jünker Festival of Friendship Memorial XXVIII",
+'Team' => "Jean-Claude Jünker Festival of Friendship Memorial XXVIII XV",
 'Players' => array(
 (["Lössl","Huddersfield","Goalkeeper"]), 
 (["Pantilimon", "Watford", "Goalkeeper"]),
@@ -103,7 +103,7 @@ $joe = array(
 
 //GK Heaton, Gomes Def - Daniels, Williams, Pieters, D Luiz, Dawson Mid- Pogba D. Silva, Son, Sigardson, Coutinho
 'Name' => "Joe",
-'Team' => "Joe's lean mean XV",
+'Team' => "Default Team Name Memorial XV",
 'Players' => array(
 (["Heaton",	"Burnley", "Goalkeeper"]),
 (["Gomes",	"Watford", "Goalkeeper"]),
@@ -133,7 +133,7 @@ $joe = array(
 $dan = array(
 
 'Name' => "Dan",
-'Team' => "Stan Kroenke etc",
+'Team' => "Stan Kroenke 'Three Lions on my Wall' / 'Thin Out Their Numbers' Memorial XV",
 'Players' => array(
 (["Cech",	"Arsenal", "Goalkeeper"]),
 (["Ryan",	"Brighton", "Goalkeeper"]),
@@ -160,7 +160,7 @@ $christ = array(
 // Mid - De Bruyne, Mane, Ince, Ritchie, Lemar; Str - Lacazette, Chicharito, Defoe.
 
 'Name' => "Christ",
-'Team' => "Christ's team",
+'Team' => "Default Team Name Memorial XV",
 'Players' => array(
 (["Cde Gea",	"Man Utd", "Goalkeeper"]),
 (["Butland",	"Stoke", "Goalkeeper"]),
