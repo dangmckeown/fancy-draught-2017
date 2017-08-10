@@ -33,28 +33,18 @@
 
 //=========================
 
+
 function selected($player){
 
 //filter curl list of players down to those who have made it onto a roster
 
-global $managers;
-
-$test = array_pop($player);
-
-if (in_array($test,$managers)){
-
+if($player['manager']){
 return True;
-
 }
-
 else
-
 {
-
 return False;
-
 }
-
 
 } //end function selected($player)
 
@@ -70,7 +60,7 @@ $output = array();
 
 foreach ($players as $player){
 
-if ($player[2]=="Goalkeeper"){
+if ($player['position']=="Goalkeeper"){
 
 $output[] = $player;
 
@@ -80,7 +70,7 @@ $output[] = $player;
 
 foreach ($players as $player){
 
-if ($player[2]=="Defender"){
+if ($player['position']=="Defender"){
 
 $output[] = $player;
 
@@ -90,7 +80,7 @@ $output[] = $player;
 
 foreach ($players as $player){
 
-if ($player[2]=="Midfielder"){
+if ($player['position']=="Midfielder"){
 
 $output[] = $player;
 
@@ -100,7 +90,7 @@ $output[] = $player;
 
 foreach ($players as $player){
 
-if ($player[2]=="Forward"){
+if ($player['position']=="Forward"){
 
 $output[] = $player;
 
@@ -125,7 +115,7 @@ function by_score($players){
 
 for($i = 0;$i < count($players);$i++){
 
-array_unshift($players[$i],$players[$i][3]);
+array_unshift($players[$i],$players[$i]['points']);
 
 }
 
@@ -169,7 +159,8 @@ $subs[] = array_pop($players);
 
 $subs[] = array_pop($players); 
 
-if($subs[0][2] == "Forward" && $subs[1][2] == "Forward" && $subs[2][2] == "Forward" ){
+
+if($subs[0]['position'] == "Forward" && $subs[1]['position'] == "Forward" && $subs[2]['position'] == "Forward" ){
 
 $recall = array_shift($subs);
 
@@ -213,7 +204,7 @@ $players = lineup($players);
 
 for ($i=0; $i<11; $i++){
 
-$total += $players[$i][3];
+$total += $players[$i]['points'];
 
 }
 
@@ -235,7 +226,7 @@ $players = lineup($players);
 
 for ($i=0; $i<15; $i++){
 
-$total += $players[$i][3];
+$total += $players[$i]['points'];
 
 }
 
@@ -257,16 +248,17 @@ $players = lineup($players);
 
 for ($i=0; $i<11; $i++){
 
-$output .= "<div class='".strtolower($players[$i][2])."'>{$players[$i][0]} {$players[$i][3]}<br/>{$players[$i][1]}</div>\n\n";
+$output .= "<div class='".strtolower($players[$i]['position'])."'>{$players[$i]['name']} {$players[$i]['points']}<br/>{$players[$i]['club']}</div>\n\n";
 
 }
 
 for ($i=11; $i<15; $i++){
 
-$output .= "<div class='sub ".strtolower($players[$i][2])."'>{$players[$i][0]} {$players[$i][3]}<br/>{$players[$i][1]}</div>\n\n";
+$output .= "<div class='sub ".strtolower($players[$i]['position'])."'>{$players[$i]['name']} {$players[$i]['club']}<br/>{$players[$i]['points']}</div>\n\n";
 
 }
 
 return $output;
 
 } //end function displayteam($players)
+
