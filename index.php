@@ -1,3 +1,10 @@
+<html lang="en">
+  <head>
+    <title>Fantasy draft 2017-18</title>
+  </head>
+
+<body>
+
 <?php
 
 include_once('dataconnect.php');
@@ -24,3 +31,7 @@ echo "<p>Score: " . net($squad) . "</p>";
 
 
 }
+  
+  </body>
+    
+    </html>
