@@ -15,7 +15,7 @@ $pete = array(
 (["Lloris",	"Spurs", "Goalkeeper"]),
 (["van Aanholt",	"Crystal Palace", "Defender"]),
 (["Cresswell",	"West Ham", "Defender"]),
-(["Mendy",	"Leicester", "Defender"]),
+(["Mendy",	"Man City", "Defender"]),
 (["Bailly",	"Man Utd", "Defender"]),
 (["Keane",	"Everton", "Defender"]),
 (["Mooy",	"Huddersfield", "Midfielder"]),
