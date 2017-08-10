@@ -31,6 +31,7 @@ echo "<p>Score: " . net($squad) . "</p>";
 
 
 }
+  ?>
   
   </body>
     
