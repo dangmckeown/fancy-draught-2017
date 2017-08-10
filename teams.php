@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 
 
@@ -108,7 +108,6 @@ $samg = array(
 (["Joşhua King","Forward"]),
 (["Gabbiadini",	"Southampton","Forward"]),
 (["Rooney",	"Everton","Forward"])
-
 )
 //remember to insert commas
 ); //End $samg
@@ -133,12 +132,11 @@ $joe = array(
 (["Giroud",	"Arsenal", "Forward"]),
 (["Carroll",	"West Ham", "Forward"]),
 (["Vardy",	"Leicester", "Forward"])
-)
 //remember to insert commas
-
-
-
+)
 );
+
+
 
 //Cech (Arsenal), Ryan (Brighton), Milner (Liverpool), Walker (Man City), Cook (Bournemouth), Bertrand (Southampton), 
 // Cahill (Chelsea), Zaha (Palace), Capoue (Watford), Klassen (Everton), Allen (Stoke), Snodgrass (West Ham), 
@@ -164,7 +162,10 @@ $dan = array(
 (["Mounie",	"Huddersfield", "Forward"]),
 (["Kane",	"Spurs", "Forward"]),
 (["Lukaku",	"Man Utd", "Forward"])
+)
 );
+
+
 
 $christ = array(
 //GK - de Gea, Butland; Def - Alonso, Rose, Baines, Cedric, Mee; 
@@ -188,6 +189,7 @@ $christ = array(
 (["Mounie",	"Huddersfield", "Forward"]),
 (["Kane",	"Spurs", "Forward"]),
 (["Lukaku",	"Man Utd", "Forward"])
+)
 );
 
 
