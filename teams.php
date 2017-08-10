@@ -59,21 +59,21 @@ $holly = array(
 'Name' => "Holly 'The Hammer' Hamilton",
 'Team' => "The Owl and the Pussycat Pea Green Boaters",
 'Players' => array(
-(["Boruc", "Bournemouth", "Goalkeeper"]),
-(["Mannone", "Sunderland", "Goalkeeper"]),
-(["Bellerín", "Arsenal", "Defender"]),
-(["Alderweireld", "Spurs", "Defender"]),
+(["Fabianski", "Swansea", "Goalkeeper"]),
+(["Hart", "West Ham", "Goalkeeper"]),
+(["Koscielny", "Arsenal", "Defender"]),
+(["Fuchs", "Leicester", "Defender"]),
 (["Lowton", "Burnley", "Defender"]),
-(["van Dijk", "Southampton", "Defender"]),
-(["Ogbonna", "West Ham", "Defender"]),
+(["Shawcross",	"Stoke", "Defender"]),
+(["OMcAuley", "West Brom", "Defender"]),
 (["Fàbregas", "Chelsea", "Midfielder"]),
-(["Deulofeu", 13 , "Midfielder"]),
-(["Nolito", "Man City", "Midfielder"]),
-(["Firmino", "Liverpool", "Midfielder"]),
-(["Mahrez", "Leicester", "Midfielder"]),
-(["Ibrahimovic", "Man Utd", "Forward"]),
-(["Deeney", "Watford", "Forward"]),
-(["Rondón", "West Brom", "Forward"])
+(["Groß", "Brighton", "Midfielder"]),
+(["Barkley", "Everton", "Midfielder"]),
+(["Matic", "Man Utd", "Midfielder"]),
+(["Alli", "Spurs", "Midfielder"]),
+(["Agüero", "Man City", "Forward"]),
+(["Benteke", "Crystal Palace", "Forward"]),
+(["Firmino", "Liverpool", "Forward"])
 )
 //remember to insert commas
 ); //End $holly
