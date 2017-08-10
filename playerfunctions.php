@@ -40,7 +40,6 @@ function selected($player){
 
 if($player['manager']){
 return True;
-  echo "<p>".var_dump($player)."</p>";
 }
 else
 {
