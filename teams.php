@@ -2,18 +2,6 @@
 
 
 
-/*
-
-
-FW - Giroud, Carol, Vardy
-
-GK - de Gea, Butland; Def - Alonso, Rose, Baines, Cedric, Mee; Mid - De Bruyne, Mane, Ince, Ritchie, Lemar; Str - Lacazette, Chicharito, Defoe.
-
-
-Cech (Arsenal), Ryan (Brighton), Milner (Liverpool), Walker (Man City), Cook (Bournemouth), Bertrand (Southampton),  Cahill (Chelsea), Zaha (Palace), Capoue (Watford), Klassen (Everton), Allen (Stoke), Snodgrass (West Ham), Mounie (Huddersfield), Kane (Spurs), Lukaku (Man U)
-
-*/
-
 
 //Monster array with
 # $sam,$holly,$pete,$dan,$christ,$samg = 0;
@@ -194,4 +182,4 @@ $christ = array(
 
 
 
-$teams = array($twm,$samg,$samba);
+$teams = array($twm,$samg,$pete,$joe,$holly,$christ,$dan);
