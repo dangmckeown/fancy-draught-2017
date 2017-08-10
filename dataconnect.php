@@ -6,7 +6,7 @@ include_once('playerfunctions.php');
 
 
 $fh = file_get_contents('https://fantasy.premierleague.com/player-list/');
-$fh = file_get_contents('player-list.htm');
+#$fh = file_get_contents('player-list.htm');
 
 
 $first = explode("<h2>",$fh);
@@ -47,7 +47,7 @@ $players[$i]['name'] = trim((string)strip_tags($four[1]));
 $players[$i]['club'] = trim((string)strip_tags($four[2]));
 $players[$i]['position'] = (string)$k;
 $players[$i]['points'] = (int)$four[3];
-$losepound = explode("£",$four[4]);
+$losepound = explode("Â£",$four[4]);
 $players[$i]['value'] = (float)$losepound[1];
 
 
@@ -107,7 +107,7 @@ $i++;
 
 }
 
-var_dump($players);
+#var_dump($players);
 
 $players = by_position(array_filter($players,"selected"));
 
