@@ -133,7 +133,7 @@ $joe = array(
 $dan = array(
 
 'Name' => "Dan",
-'Team' => "Stan Kroenke 'Three Lions on my Wall' / 'Thin Out Their Numbers' Memorial XV",
+'Team' => "Stan Kroenke 'Three Lions On My Wall / Thin Out Their Numbers / Well I Didn't Know He Was Bloody Called Cecil' Memorial XV",
 'Players' => array(
 (["Cech", "Arsenal", "Goalkeeper"]),
 (["Ryan", "Brighton", "Goalkeeper"]),
