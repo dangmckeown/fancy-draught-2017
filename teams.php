@@ -162,7 +162,7 @@ $christ = array(
 'Name' => "Christ",
 'Team' => "Default Team Name Memorial XV",
 'Players' => array(
-(["Cde Gea", "Man Utd", "Goalkeeper"]),
+(["de Gea", "Man Utd", "Goalkeeper"]),
 (["Butland", "Stoke", "Goalkeeper"]),
 (["Alonso", "Chelsea", "Defender"]),
 (["Rose", "Spurs", "Defender"]),
@@ -174,9 +174,9 @@ $christ = array(
 (["Ritchie", "Newcastle", "Midfielder"]),
 (["Lemar", 0, "Midfielder"]),
 (["Mané", "Liverpool", "Midfielder"]),
-(["Mounie", "Huddersfield", "Forward"]),
-(["Kane", "Spurs", "Forward"]),
-(["Lukaku", "Man Utd", "Forward"])
+(["Lacazette", "Arsenal", "Forward"]),
+(["Defoe", "Bournemouth", "Forward"]),
+(["Chicharito", "West Ham", "Forward"])
 )
 );
 
