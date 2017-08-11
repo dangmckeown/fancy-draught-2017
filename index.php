@@ -27,7 +27,7 @@ $squad[] = $player;
 }
 
 echo displayteam($squad);
-echo "<p>Score: " . net($squad) . "<br />(With subs: ". gross($squad) ."</p>\n\n";
+echo "<p>Score: " . net($squad) . "<br />(With subs: ". gross($squad) .")</p>\n\n";
 
 
 }
