@@ -65,7 +65,7 @@ $holly = array(
 (["Fuchs", "Leicester", "Defender"]),
 (["Lowton", "Burnley", "Defender"]),
 (["Shawcross",	"Stoke", "Defender"]),
-(["OMcAuley", "West Brom", "Defender"]),
+(["McAuley", "West Brom", "Defender"]),
 (["Fàbregas", "Chelsea", "Midfielder"]),
 (["Groß", "Brighton", "Midfielder"]),
 (["Barkley", "Everton", "Midfielder"]),
