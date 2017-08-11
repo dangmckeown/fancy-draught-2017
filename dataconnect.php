@@ -103,12 +103,4 @@ $i++;
 
 }
 
-#var_dump($players);
-
 $players = by_position(array_filter($players,"selected"));
-
-foreach($players as $player){
-echo "<p>". var_dump($player)."</p>";
-}
-
-echo "<h1>".count($players)."</h1>";
