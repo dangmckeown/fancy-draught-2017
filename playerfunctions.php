@@ -248,13 +248,13 @@ $players = lineup($players);
 
 for ($i=0; $i<11; $i++){
 
-$output .= "<div class='".strtolower($players[$i]['position'])."'>ARRAY KEY=$i {$players[$i]['name']} {$players[$i]['points']}<br/>{$players[$i]['club']}</div>\n\n";
+$output .= "<div class='".strtolower($players[$i]['position'])."'>{$players[$i]['name']} {$players[$i]['points']}<br/>{$players[$i]['club']}</div>\n\n";
 
 }
 
 for ($i=11; $i<15; $i++){
 
-$output .= "<div class='sub ".strtolower($players[$i]['position'])."'>ARRAY KEY=$i  {$players[$i]['name']} {$players[$i]['club']}<br/>{$players[$i]['points']}</div>\n\n";
+$output .= "<div class='sub ".strtolower($players[$i]['position'])."'>{$players[$i]['name']} {$players[$i]['club']}<br/>{$players[$i]['points']}</div>\n\n";
 
 }
 
