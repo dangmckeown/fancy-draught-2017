@@ -32,7 +32,7 @@ echo "<p>Score: " . net($squad) . "<br />(With subs: ". gross($squad) .")</p>\n\
   
 // get various player awards
 $players = by_score($players);
-if (count($players == 0){
+if (count($players) == 0){
 echo "Oop";
 } else {
   var_dump($players);
