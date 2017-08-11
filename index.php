@@ -21,30 +21,31 @@ foreach ($players as $player){
 
 if($player['manager'] == $team['Name']){
 $squad[] = $player;
-}
+} //end if($player['manager'] == $team['Name'])
 
-
-}
+} // end foreach ($players as $player)
 
 echo displayteam($squad);
 echo "<p>Score: " . net($squad) . "<br />(With subs: ". gross($squad) .")</p>\n\n";
 
-
-}
+} // end foreach ($teams as $team)
   
+// get various player awards
 $players = by_score($players);
 $mvps = ([$players[0],$players[1],$players[2]]);
 $count = count($players);
 $mingers = ([$players[$count - 1], $players[$count - 2], $players[$count - 3]]);
 $players = by_position($players);
 $goldengloves([$players[0],$players[1],$players[2]]);
-               
+
+  
+var_dump($mvps);
+var_dump($mingers);
+var_dump($goldengloves);
              
   ?>
   
-  <p><?php var_dump($mvps); ?></p>
-  <p><?php var_dump($mingers); ?></p>
-  <p><?php var_dump($goldengloves); ?></p>
+
   
   </body>
     
