@@ -13,7 +13,7 @@ include_once('playerfunctions.php');
 
 foreach ($teams as $team){
 
-echo $team['Name'] . "<br />" . $team['Team'];
+echo "<h4>" .$team['Name'] . "</h4>\n\n<h3>" . $team['Team'] . "</h3>\n\n";
 
 $squad = array();
 
