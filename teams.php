@@ -213,4 +213,4 @@ $samba = array(
 )
 );
 
-$teams = array($twm,$samg,$pete,$joe,$holly,$christ,$dan);
+$teams = array($twm,$samg,$pete,$joe,$holly,$christ,$dan, $samba);
