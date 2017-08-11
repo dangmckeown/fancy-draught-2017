@@ -180,6 +180,37 @@ $christ = array(
 )
 );
 
+/*
+Harry Redknapp's Car Window Deadline Day Memorial XV: 
+Ben Foster (West Brom), Fraser Forster (Southampton), 
+Sead Kolasinac (Arsenal), Victor Lindelof (Man United), Nathaniel Clyne (Liverpool), 
+Jan Vertonghen (Spurs), Scott Dann (Palace), Pedro (Chelsea), Ryan Fraser (Bournmouth), 
+Antonio (West Ham), Kevin Mirallas (Everton), 
+Jose Izquierdo (Brighton - just going through at the moment), Gabriel Jesus (City), 
+Andre Gray (Watford), Kelechi Iheanacho (Leicester)
 
+
+*/
+$samba = array(
+'Name' => "Sam Batch",
+'Team' => "Harry Redknapp's Car Window Deadline Day Memorial XV",
+'Players' => array(
+(["Foster",	"West Brom", "Goalkeeper"]),
+(["Forster", "Southampton", "Goalkeeper"]),
+(["Kolasinac", "Arsenal", "Defender"]),
+(["Lindelöf", "Man Utd", "Defender"]),
+(["Clyne", "Liverpool", "Defender"]),
+(["Vertonghen", "Spurs", "Defender"]),
+(["Dann", "Crystal Palace", "Defender"]),
+(["Pedro", "Chelsea", "Midfielder"]),
+(["Fraser", "Bournemouth", "Midfielder"]),
+(["Antonio", "West Ham", "Midfielder"]),
+(["Mirallas", "Everton", "Midfielder"]),
+(["Izquierdo", "Brighton", "Midfielder"]),
+(["Jesus", "Man City", "Forward"]),
+(["Iheanacho", "Leicester", "Forward"]),
+(["Gray", "Watford", "Forward"])
+)
+);
 
 $teams = array($twm,$samg,$pete,$joe,$holly,$christ,$dan);
