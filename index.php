@@ -31,7 +31,20 @@ echo "<p>Score: " . net($squad) . "<br />(With subs: ". gross($squad) .")</p>\n\
 
 
 }
+  
+$players = by_score($players);
+$mvps = ([$players[0],$players[1],$players[2]]);
+$count = count($players);
+$mingers = ([$players[$count - 1], $players[$count - 2], $players[$count - 3]]);
+$players = by_position($players);
+$goldengloves([$players[0],$players[1],$players[2]]);
+               
+             
   ?>
+  
+  <p><?php var_dump($mvps); ?></p>
+  <p><?php var_dump($mingers); ?></p>
+  <p><?php var_dump($goldengloves); ?></p>
   
   </body>
     
