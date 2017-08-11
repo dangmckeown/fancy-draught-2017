@@ -247,15 +247,17 @@ $output = "";
 $players = lineup($players);
 
 for ($i=0; $i<11; $i++){
+/*
 if ($i = 0 || ( $players[$i]['position'] != $players[$i - 1]['position'])){
 $output .= "<div class = 'row'>";
-}
+} */
 $output .= "<div class='".strtolower($players[$i]['position'])."'>{$players[$i]['name']} {$players[$i]['points']}<br/>{$players[$i]['club']}</div>\n\n";
 
+/*
 if ( $players[$i]['position'] != $players[$i + 1]['position']){
 $output .= "</div>";
 }
-
+*/
     
 }
 
