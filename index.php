@@ -1,6 +1,7 @@
 <html lang="en">
   <head>
     <title>Fantasy draft 2017-18</title>
+<meta name="viewport" content="width=device-width">
     <style>
       div{ display: inline; width: 200px; }
       .row{ display: block;}
