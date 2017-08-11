@@ -1,6 +1,10 @@
 <html lang="en">
   <head>
     <title>Fantasy draft 2017-18</title>
+    <style>
+      div{ display: inline; width: 200px; }
+      .row{ display: block;}
+    </style>
   </head>
 
 <body>
