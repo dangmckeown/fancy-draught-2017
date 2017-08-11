@@ -32,16 +32,11 @@ echo "<p>Score: " . net($squad) . "<br />(With subs: ". gross($squad) .")</p>\n\
   
 // get various player awards
 $players = by_score($players);
-if (count($players) == 0){
-echo "Oop";
-} else {
-  var_dump($players);
-}
 $mvps = ([$players[0],$players[1],$players[2]]);
 $count = count($players);
 $mingers = ([$players[$count - 1], $players[$count - 2], $players[$count - 3]]);
 $players = by_position($players);
-$goldengloves([$players[0],$players[1],$players[2]]);
+$goldengloves = ([$players[0],$players[1],$players[2]]);
 
   
 var_dump($mvps);
