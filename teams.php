@@ -9,6 +9,7 @@
 
 $pete = array(
 'Name' => "Pete Harmer",
+'Filter' => "petesteam",
 'Team' => "Default Team Name Memorial XV",
 'Players' => array(
 (["Begovic", "Bournemouth", "Goalkeeper"]),
@@ -32,6 +33,9 @@ $pete = array(
 
 $twm = array(
 'Name' => "Twm",
+
+'Filter' => "twmsteam",
+
 'Team' => "Default Team Name Memorial XV",
 'Players' => array(
 (["Pickford", "Everton", "Goalkeeper"]),
@@ -57,6 +61,9 @@ $twm = array(
 
 $holly = array(
 'Name' => "Holly 'The Hammer' Hamilton",
+
+'Filter' => "hollysteam",
+
 'Team' => "The Owl and the Pussycat Pea Green Boaters",
 'Players' => array(
 (["Fabianski", "Swansea", "Goalkeeper"]),
@@ -79,6 +86,9 @@ $holly = array(
 ); //End $holly
 $samg = array(
 'Name' => "Samuel E Green",
+
+'Filter' => "samuelsteam",
+
 'Team' => "Jean-Claude Jünker Festival of Friendship Memorial XXVIII XV",
 'Players' => array(
 (["Lössl","Huddersfield","Goalkeeper"]), 
@@ -103,6 +113,9 @@ $joe = array(
 
 //GK Heaton, Gomes Def - Daniels, Williams, Pieters, D Luiz, Dawson Mid- Pogba D. Silva, Son, Sigardson, Coutinho
 'Name' => "Joe",
+
+'Filter' => "joesteam",
+
 'Team' => "Default Team Name Memorial XV",
 'Players' => array(
 (["Heaton", "Burnley", "Goalkeeper"]),
@@ -133,6 +146,9 @@ $joe = array(
 $dan = array(
 
 'Name' => "Dan",
+
+'Filter' => "dansteam",
+
 'Team' => "Stan Kroenke 'Three Lions On My Wall / Thin Out Their Numbers / Well I Didn't Know He Was Bloody Called Cecil' Memorial XV",
 'Players' => array(
 (["Cech", "Arsenal", "Goalkeeper"]),
@@ -160,6 +176,9 @@ $christ = array(
 // Mid - De Bruyne, Mane, Ince, Ritchie, Lemar; Str - Lacazette, Chicharito, Defoe.
 
 'Name' => "Christ",
+
+'Filter' => "christsteam",
+
 'Team' => "Default Team Name Memorial XV",
 'Players' => array(
 (["de Gea", "Man Utd", "Goalkeeper"]),
@@ -193,6 +212,9 @@ Andre Gray (Watford), Kelechi Iheanacho (Leicester)
 */
 $samba = array(
 'Name' => "Sam Batch",
+
+'Filter' => "sambasteam",
+
 'Team' => "Harry Redknapp's Car Window Deadline Day Memorial XV",
 'Players' => array(
 (["Foster",	"West Brom", "Goalkeeper"]),

@@ -309,26 +309,30 @@ $output = "";
 
 $players = lineup($players);
 
-for ($i=0; $i<11; $i++){
-/*
-if ($i = 0 || ( $players[$i]['position'] != $players[$i - 1]['position'])){
-$output .= "<div class = 'row'>";
-} */
-$output .= "<div class='".strtolower($players[$i]['position'])."'>{$players[$i]['name']} {$players[$i]['points']}<br/>{$players[$i]['club']}</div>\n\n";
+echo "<div class='starting'>";
 
-/*
+for ($i=0; $i<11; $i++){
+
+if ($i == 0 || ($i > 0 && ( $players[$i]['position'] != $players[$i - 1]['position']))){
+$output .= "<div class = 'row'>";
+} 
+$output .= "<div class='".strtolower($players[$i]['position'])."'>{$players[$i]['name']} &ndash; {$players[$i]['points']}<br/><sup>{$players[$i]['club']}</sup></div>\n\n";
+
+
 if ( $players[$i]['position'] != $players[$i + 1]['position']){
 $output .= "</div>";
 }
-*/
+
     
 }
 
-$output .= "<p>Subs</p><div class='row'>";  
+
+//close off eleven div and put the subs in
+$output .= "</div><p>Subs</p><div class='row'>";  
   
 for ($i=11; $i<15; $i++){
 
-$output .= "<div class='sub ".strtolower($players[$i]['position'])."'>{$players[$i]['name']} {$players[$i]['club']}<br/>{$players[$i]['points']}</div>\n\n";
+$output .= "<div class='sub ".strtolower($players[$i]['position'])."'>{$players[$i]['name']} &ndash; {$players[$i]['points']}<br /><sup>{$players[$i]['club']}</sup></div>\n\n";
 
 }
 

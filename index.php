@@ -3,8 +3,30 @@
     <title>Fantasy draft 2017-18</title>
 <meta name="viewport" content="width=device-width">
     <style>
-      div{ display: inline; width: 200px; }
-      .row{ display: block;}
+    body {
+		font-family: "Arial Narrow";
+}
+   @media screen and (min-width: 401px){
+	
+
+    	.starting { text-align: center;}
+      .goalkeeper, .defender, .midfielder, .forward{ display: inline-block; width: 200px; padding-bottom: 5px;}
+      .row{ display: block;padding-bottom:15px;}
+      .sub{display: block; padding:0;border: 1px black solid;}
+      
+     }
+     
+       @media screen and (max-width: 400px){
+	
+
+    	.starting { text-align: left;}
+      .goalkeeper, .defender, .midfielder, .forward{ display: inline-block; width: 200px; }
+      .row{ display: block;padding-bottom:3px;}
+      .sub{display: block; padding:0;border: 1px black solid;}
+      
+     }
+
+     
     </style>
   </head>
 
@@ -16,22 +38,42 @@ include_once('dataconnect.php');
 
 include_once('playerfunctions.php');
 
+$table = array();
+
 foreach ($teams as $team){
+$squad = array_filter($players,$team['Filter']);
+$table[] = ([net($squad),$team['Name']]);
+}
 
+rsort($table);
+
+?>
+
+<table>
+<thead><th>Manager</th><th>Points</th></thead>
+<tbody>
+
+<?php
+
+foreach ($table as $tab){
+	echo "<tr><td>{$tab[1]}</td><td>{$tab[0]}</td></tr>";
+}
+
+?>
+
+</tbody>
+
+</table>
+
+<?php
+
+
+foreach ($teams as $team){
+$squad = array_filter($players,$team['Filter']);
 echo "<h4>" .$team['Name'] . "</h4>\n\n<h3>" . $team['Team'] . "</h3>\n\n";
-
-$squad = array();
-
-foreach ($players as $player){
-
-if($player['manager'] == $team['Name']){
-$squad[] = $player;
-} //end if($player['manager'] == $team['Name'])
-
-} // end foreach ($players as $player)
-
-echo displayteam($squad);
 echo "<p>Score: " . net($squad) . "<br />(With subs: ". gross($squad) .")</p>\n\n";
+echo displayteam($squad);
+
 
 } // end foreach ($teams as $team)
   
@@ -44,9 +86,25 @@ $players = by_position($players);
 $goldengloves = ([$players[0],$players[1],$players[2]]);
 
   
-var_dump($mvps);
-var_dump($mingers);
-var_dump($goldengloves);
+echo "<h5>MVPs</h5><ol>";
+foreach ($mvps as $mvp){
+echo "<li>{$mvp['name']} &ndash; {$mvp['points']}</li>";
+}
+echo "</ol>";
+
+echo "<h5>Mingers</h5><ol>";
+foreach ($mingers as $ming){
+echo "<li>{$ming['name']} &ndash; {$ming['points']}</li>";
+}
+echo "</ol>";
+
+
+echo "<h5>Golden Gloves</h5><ol>";
+foreach ($goldengloves as $gold){
+echo "<li>{$gold['name']} &ndash; {$gold['points']}</li>";
+}
+echo "</ol>";
+
              
   ?>
   
