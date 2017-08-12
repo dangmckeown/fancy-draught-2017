@@ -39,6 +39,17 @@
 
 <body>
 
+<center>
+<div id="header"><table><tr><td style="padding-right:50px;" id="header_image">
+<img style="width:200px;float:left" src="https://upload.wikimedia.org/wikipedia/commons/5/57/Mobfooty.jpg" />
+</td><td>
+<h1>Fantasy Draft League 2016-17</h1>
+<h2>You pays your money, you takes your choice. <br />Except in this case, you don't pays your money.</h2>
+</td></tr>
+</table>
+
+</div>
+
 <?php
 
 include_once('dataconnect.php');
