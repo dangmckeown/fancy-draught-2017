@@ -41,15 +41,15 @@ $twm = array(
 'Players' => array(
 (["Pickford", "Everton", "Goalkeeper"]),
 (["Hennessey", "Crystal Palace", "Goalkeeper"]),
-(["Prödl", "Watford", "Defender"]),
-(["Aké", "Bournemouth", "Defender"]),
+(["PrÃ¶dl", "Watford", "Defender"]),
+(["AkÃ©", "Bournemouth", "Defender"]),
 (["Alderweireld", "Spurs", "Defender"]),
 (["van Dijk", "Southampton", "Defender"]),
 (["Zabaleta", "West Ham", "Defender"]),
-(["Sánchez", "Arsenal", "Midfielder"]),
-(["Kanté", "Chelsea" , "Midfielder"]),
+(["SÃ¡nchez", "Arsenal", "Midfielder"]),
+(["KantÃ©", "Chelsea" , "Midfielder"]),
 (["Shaqiri", "Stoke", "Midfielder"]),
-(["Sané", "Man City", "Midfielder"]),
+(["SanÃ©", "Man City", "Midfielder"]),
 (["Martial", "Man Utd", "Midfielder"]),
 (["Okazaki", "Leicester", "Forward"]),
 (["Sturridge", "Liverpool", "Forward"]),
@@ -90,7 +90,7 @@ $samg = array(
 
 'Filter' => "samuelsteam",
 
-'Team' => "Jean-Claude JÃ¼nker Festival of Friendship Memorial XXVIII XV",
+'Team' => "Jean-Claude JÃƒÂ¼nker Festival of Friendship Memorial XXVIII XV",
 'Players' => array(
 (["LÃ¶ssl","Huddersfield","Goalkeeper"]), 
 (["Pantilimon", "Watford", "Goalkeeper"]),
