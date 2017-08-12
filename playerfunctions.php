@@ -40,7 +40,7 @@ $output = False;
 
 function twmsteam($player){
 $output = false;
- if($player['manager'] == "Joe"){
+ if($player['manager'] == "Twm"){
  $output = True;
  }
   return $output;
