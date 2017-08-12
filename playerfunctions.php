@@ -30,6 +30,69 @@
 
 */
 
+function sambasteam($player){
+$output = False;
+ if($player['manager'] == "Sam Batch"){
+ $output = True;
+ }
+  return $output;
+}
+
+function twmsteam($player){
+$output = false;
+ if($player['manager'] == "Joe"){
+ $output = True;
+ }
+  return $output;
+}
+
+function samuelsteam($player){
+$output = False;
+ if($player['manager'] == "Samuel E Green"){
+ $output = True;
+ }
+  return $output;
+}
+
+function petesteam($player){
+$output = False;
+ if($player['manager'] == "Pete Harmer"){
+ $output = True;
+ }
+  return $output;
+}
+
+function joesteam($player){
+$output = False;
+ if($player['manager'] == "Joe"){
+ $output = True;
+ }
+  return $output;
+}
+
+function hollysteam($player){
+$output = False;
+ if($player['manager'] == "Holly 'The Hammer' Hamilton"){
+ $output = True;
+ }
+  return $output;
+}
+
+function christsteam($player){
+$output = False;
+ if($player['manager'] == "Christ"){
+ $output = True;
+ }
+  return $output;
+}
+
+function dansteam($player){
+$output = False;
+ if($player['manager'] == "Dan"){
+ $output = True;
+ }
+  return $output;
+}
 
 //=========================
 
