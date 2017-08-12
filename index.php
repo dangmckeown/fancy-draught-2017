@@ -11,6 +11,7 @@
 	background-color: #e4e4f4;
 	border-radius: 8px;
 	padding-left: 15px;
+	width: 200px;
 }
    @media screen and (min-width: 401px){
 	
