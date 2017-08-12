@@ -6,6 +6,12 @@
     body {
 		font-family: "Arial Narrow";
 }
+
+.teamscore {
+	background-color: #e4e4f4;
+	border-radius: 8px;
+	padding-left: 15px;
+}
    @media screen and (min-width: 401px){
 	
 	.teaminfo, .bench	{ margin-left: 20%; }
@@ -71,7 +77,7 @@ foreach ($table as $tab){
 foreach ($teams as $team){
 $squad = array_filter($players,$team['Filter']);
 echo "<div class='teaminfo'>\n<hr />\n<h4>" .$team['Name'] . "</h4>\n\n<h3>" . $team['Team'] . "</h3>\n\n";
-echo "<p>Score: " . net($squad) . "<br />(With subs: ". gross($squad) .")</p>\n</div>\n";
+echo "<div class='teamscore'><p>Score: " . net($squad) . "<br />(With subs: ". gross($squad) .")</p>\n</div>\n</div>\n";
 echo displayteam($squad);
 
 
