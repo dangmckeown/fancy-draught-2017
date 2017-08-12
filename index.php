@@ -8,7 +8,7 @@
 }
    @media screen and (min-width: 401px){
 	
-
+	.teaminfo, .bench	{ margin-left: 20%; }
     	.starting { text-align: center;}
       .goalkeeper, .defender, .midfielder, .forward{ display: inline-block; width: 200px; padding-bottom: 5px;}
       .row{ display: block;padding-bottom:15px;}
@@ -48,7 +48,7 @@ $table[] = ([net($squad),$team['Name']]);
 rsort($table);
 
 ?>
-
+<center>
 <table>
 <thead><th>Manager</th><th>Points</th></thead>
 <tbody>
@@ -56,7 +56,7 @@ rsort($table);
 <?php
 
 foreach ($table as $tab){
-	echo "<tr><td>{$tab[1]}</td><td>{$tab[0]}</td></tr>";
+	echo "<tr><td>{$tab[1]}</td><td style='text-align: right;'>{$tab[0]}</td></tr>";
 }
 
 ?>
@@ -64,14 +64,14 @@ foreach ($table as $tab){
 </tbody>
 
 </table>
-
+</center>
 <?php
 
 
 foreach ($teams as $team){
 $squad = array_filter($players,$team['Filter']);
-echo "<h4>" .$team['Name'] . "</h4>\n\n<h3>" . $team['Team'] . "</h3>\n\n";
-echo "<p>Score: " . net($squad) . "<br />(With subs: ". gross($squad) .")</p>\n\n";
+echo "<div class='teaminfo'>\n<hr />\n<h4>" .$team['Name'] . "</h4>\n\n<h3>" . $team['Team'] . "</h3>\n\n";
+echo "<p>Score: " . net($squad) . "<br />(With subs: ". gross($squad) .")</p>\n</div>\n";
 echo displayteam($squad);
 
 

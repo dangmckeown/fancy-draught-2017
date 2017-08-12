@@ -328,7 +328,7 @@ $output .= "</div>";
 
 
 //close off eleven div and put the subs in
-$output .= "</div><p>Subs</p><div class='row'>";  
+$output .= "</div><div class='bench'><p>Subs</p><div class='row'>";  
   
 for ($i=11; $i<15; $i++){
 
@@ -336,7 +336,7 @@ $output .= "<div class='sub ".strtolower($players[$i]['position'])."'>{$players[
 
 }
 
-$output .= "</div>";
+$output .= "</div>\n\n</div>";
   
 return $output;
 
