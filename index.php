@@ -7,6 +7,10 @@
 		font-family: "Arial Narrow";
 }
 
+#header td{
+	display: inline-block;
+}
+
 .teamscore {
 	background-color: #e4e4f4;
 	border-radius: 8px;
@@ -15,7 +19,7 @@
 }
    @media screen and (min-width: 401px){
 	
-	.teaminfo, .bench	{ margin-left: 20%; }
+	.teaminfo, .bench, #awards	{ margin-left: 20%; }
     	.starting { text-align: center;}
       .goalkeeper, .defender, .midfielder, .forward{ display: inline-block; width: 200px; padding-bottom: 5px;}
       .row{ display: block;padding-bottom:15px;}
@@ -40,16 +44,17 @@
 <body>
 
 <center>
-<div id="header"><table><tr><td style="padding-right:50px;" id="header_image">
-<img style="width:200px;float:left" src="https://upload.wikimedia.org/wikipedia/commons/5/57/Mobfooty.jpg" />
-</td><td>
+<div id="header"><table><tr><td>
 <h1>Fantasy Draft League 2016-17</h1>
 <h2>You pays your money, you takes your choice. <br />Except in this case, you don't pays your money.</h2>
+</td>
+<td style="padding-right:50px;" id="header_image">
+<img style="width:200px;float:left" src="https://upload.wikimedia.org/wikipedia/commons/5/57/Mobfooty.jpg" />
 </td></tr>
 </table>
 
 </div>
-
+</center>
 <?php
 
 include_once('dataconnect.php');
@@ -103,6 +108,7 @@ $mingers = ([$players[$count - 1], $players[$count - 2], $players[$count - 3]]);
 $players = by_position($players);
 $goldengloves = ([$players[0],$players[1],$players[2]]);
 
+echo "<div id='awards'>";
   
 echo "<h5>MVPs</h5><ol>";
 foreach ($mvps as $mvp){
@@ -126,7 +132,7 @@ echo "</ol>";
              
   ?>
   
-
+</div>
   
   </body>
     
