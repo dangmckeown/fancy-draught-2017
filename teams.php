@@ -31,23 +31,20 @@ $pete = array(
 
 $twm = array(
 'Name' => "Twm",
-
 'Filter' => "twmsteam",
-
 'Team' => "Default Team Name Memorial XV",
-
 'Players' => array(
 (["Pickford", "Everton", "Goalkeeper"]),
 (["Hennessey", "Crystal Palace", "Goalkeeper"]),
-(["Pr�dl", "Watford", "Defender"]),
-(["Ak�", "Bournemouth", "Defender"]),
+(["Prödl", "Watford", "Defender"]),
+(["Aké", "Bournemouth", "Defender"]),
 (["Alderweireld", "Spurs", "Defender"]),
 (["van Dijk", "Southampton", "Defender"]),
 (["Zabaleta", "West Ham", "Defender"]),
-(["S�nchez", "Arsenal", "Midfielder"]),
-(["Kant�", "Chelsea" , "Midfielder"]),
+(["Sánchez", "Arsenal", "Midfielder"]),
+(["Kanté", "Chelsea" , "Midfielder"]),
 (["Shaqiri", "Stoke", "Midfielder"]),
-(["San�", "Man City", "Midfielder"]),
+(["Sané", "Man City", "Midfielder"]),
 (["Martial", "Man Utd", "Midfielder"]),
 (["Okazaki", "Leicester", "Forward"]),
 (["Sturridge", "Liverpool", "Forward"]),
@@ -55,8 +52,6 @@ $twm = array(
 )
 //remember to insert commas
 ); //End $twm
-
-
 
 $holly = array(
 'Name' => "Holly 'The Hammer' Hamilton",
