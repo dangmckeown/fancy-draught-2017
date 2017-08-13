@@ -1,6 +1,7 @@
+
 <?php
 
-
+header('Content-type: text/html; charset=utf-8');
 
 
 //Monster array with
@@ -41,15 +42,15 @@ $twm = array(
 'Players' => array(
 (["Pickford", "Everton", "Goalkeeper"]),
 (["Hennessey", "Crystal Palace", "Goalkeeper"]),
-(["Prödl", "Watford", "Defender"]),
-(["Aké", "Bournemouth", "Defender"]),
+(["Pr�dl", "Watford", "Defender"]),
+(["Ak�", "Bournemouth", "Defender"]),
 (["Alderweireld", "Spurs", "Defender"]),
 (["van Dijk", "Southampton", "Defender"]),
 (["Zabaleta", "West Ham", "Defender"]),
-(["Sánchez", "Arsenal", "Midfielder"]),
-(["Kanté", "Chelsea" , "Midfielder"]),
+(["S�nchez", "Arsenal", "Midfielder"]),
+(["Kant�", "Chelsea" , "Midfielder"]),
 (["Shaqiri", "Stoke", "Midfielder"]),
-(["Sané", "Man City", "Midfielder"]),
+(["San�", "Man City", "Midfielder"]),
 (["Martial", "Man Utd", "Midfielder"]),
 (["Okazaki", "Leicester", "Forward"]),
 (["Sturridge", "Liverpool", "Forward"]),
@@ -90,7 +91,7 @@ $samg = array(
 
 'Filter' => "samuelsteam",
 
-'Team' => "Jean-Claude JÃ¼nker Festival of Friendship Memorial XXVIII XV",
+'Team' => "Jean-Claude Jünker Festival of Friendship Memorial XXVIII XV",
 'Players' => array(
 (["Lössl","Huddersfield","Goalkeeper"]), 
 (["Pantilimon", "Watford", "Goalkeeper"]),
