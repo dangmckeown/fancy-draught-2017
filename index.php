@@ -29,7 +29,7 @@
      
        @media screen and (max-width: 400px){
 	
-
+#header table, #header tr, #header td, #header-image  {	width: 100%; }
     	.starting { text-align: left;}
       .goalkeeper, .defender, .midfielder, .forward{ display: inline-block; width: 200px; }
       .row{ display: block;padding-bottom:3px;}
