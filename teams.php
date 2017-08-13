@@ -1,9 +1,6 @@
+﻿<?php
 
-<?php
-
-header('Content-type: text/html; charset=utf-8');
-
-
+//Try to save as UTF-8
 //Monster array with
 # $sam,$holly,$pete,$dan,$christ,$samg = 0;
 
