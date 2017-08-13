@@ -1,7 +1,7 @@
 <html lang="en">
   <head>
     <title>Fantasy draft 2017-18</title>
-<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width" initial-scale="1.0">
     <style>
     body {
 		font-family: "Arial Narrow";
@@ -48,8 +48,8 @@
 <h1>Fantasy Draft League 2016-17</h1>
 <h2>You pays your money, you takes your choice. <br />Except in this case, you don't pays your money.</h2>
 </td>
-<td style="padding-right:50px;" id="header_image">
-<img style="width:200px;float:left" src="https://upload.wikimedia.org/wikipedia/commons/5/57/Mobfooty.jpg" />
+<td style="text-align:center;" id="header_image">
+<img style="width:200px;" src="https://upload.wikimedia.org/wikipedia/commons/5/57/Mobfooty.jpg" />
 </td></tr>
 </table>
 
