@@ -328,7 +328,7 @@ $output .= "</div>";
 
 
 //close off eleven div and put the subs in
-$output .= "</div><div class='bench'><p>Subs</p><div class='row'>";  
+$output .= "</div><div class='bench'><h5>Subs</h5><div class='row'>";  
   
 for ($i=11; $i<15; $i++){
 
