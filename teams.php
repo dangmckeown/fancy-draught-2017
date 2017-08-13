@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 //Try to save as UTF-8
 //Monster array with
