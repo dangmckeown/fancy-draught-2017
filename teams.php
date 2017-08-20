@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 //Try to save as UTF-8
 //Monster array with
@@ -122,7 +122,7 @@ $joe = array(
 (["Pogba", "Man Utd", "Midfielder"]),
 (["David Silva", "Man City", "Midfielder"]),
 (["Son", "Spurs", "Midfielder"]),
-(["Sigurdsson", "Swansea", "Midfielder"]),
+(["Sigurdsson", "Everton", "Midfielder"]),
 (["Coutinho", "Liverpool", "Midfielder"]),
 (["Giroud", "Arsenal", "Forward"]),
 (["Carroll", "West Ham", "Forward"]),
