@@ -222,7 +222,7 @@ $samba = array(
 (["Fraser", "Bournemouth", "Midfielder"]),
 (["Antonio", "West Ham", "Midfielder"]),
 (["Mirallas", "Everton", "Midfielder"]),
-(["Izquierdo", "Brighton", "Midfielder"]),
+(["Izquierdo", 0, "Midfielder"]),
 (["Jesus", "Man City", "Forward"]),
 (["Iheanacho", "Leicester", "Forward"]),
 (["Gray", "Watford", "Forward"])
