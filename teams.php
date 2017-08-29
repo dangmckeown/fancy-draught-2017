@@ -156,7 +156,7 @@ $dan = array(
 (["Capoue", "Watford", "Midfielder"]),
 (["Klaassen", "Everton", "Midfielder"]),
 (["Allen", "Stoke", "Midfielder"]),
-(["Snodgrass", "West Ham", "Midfielder"]),
+(["Snodgrass", 0, "Midfielder"]),
 (["Mounie", "Huddersfield", "Forward"]),
 (["Kane", "Spurs", "Forward"]),
 (["Lukaku", "Man Utd", "Forward"])
