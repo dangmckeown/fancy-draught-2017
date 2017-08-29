@@ -319,7 +319,7 @@ $output .= "<div class = 'row'>";
 $output .= "<div class='".strtolower($players[$i]['position'])."'>{$players[$i]['name']} &ndash; {$players[$i]['points']}<br/><sup>{$players[$i]['club']}</sup></div>\n\n";
 
 
-if ( $players[$i]['position'] != $players[$i + 1]['position']){
+if ( $players[$i]['position'] != $players[$i + 1]['position'] || $i == 10 ){
 $output .= "</div>";
 }
 
