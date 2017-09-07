@@ -86,7 +86,7 @@ $samg = array(
 'Team' => "Jean-Claude Jünker Festival of Friendship Memorial XXVIII XV",
 'Players' => array(
 (["Lössl","Huddersfield","Goalkeeper"]), 
-(["Pantilimon", "Watford", "Goalkeeper"]),
+(["Pantilimon", 0, "Goalkeeper"]),
 (["Bellerín", "Arsenal","Defender"]), 
 (["Lovren", "Liverpool","Defender"]), 
 (["Olsson", "Swansea","Defender"]), 
