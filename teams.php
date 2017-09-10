@@ -8,7 +8,7 @@
 $pete = array(
 'Name' => "Pete Harmer",
 'Filter' => "petesteam",
-'Team' => "Default Team Name Memorial XV",
+'Team' => "Dr Aftlove, or: How I Learned to Stop Worrying and Love Saido Berahino as a <strike>Second</strike> <strike>Seventh</strike> Thirteenth Round Pick, Sponsored by Torque, It's What Moves Boulders XV",
 'Players' => array(
 (["Begovic", "Bournemouth", "Goalkeeper"]),
 (["Lloris", "Spurs", "Goalkeeper"]),
@@ -32,7 +32,7 @@ $pete = array(
 $twm = array(
 'Name' => "Twm",
 'Filter' => "twmsteam",
-'Team' => "Default Team Name Memorial XV",
+'Team' => "Alexis Sanchez Diazepam Repeat Prescription Memorial XIV",
 'Players' => array(
 (["Pickford", "Everton", "Goalkeeper"]),
 (["Hennessey", "Crystal Palace", "Goalkeeper"]),
@@ -173,7 +173,7 @@ $christ = array(
 
 'Filter' => "christsteam",
 
-'Team' => "Default Team Name Memorial XV",
+'Team' => "There's No I in Team But There Is an I in the Thomas Lemar Memorial XIV.",
 'Players' => array(
 (["de Gea", "Man Utd", "Goalkeeper"]),
 (["Butland", "Stoke", "Goalkeeper"]),
