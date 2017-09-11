@@ -8,7 +8,7 @@
 $pete = array(
 'Name' => "Pete Harmer",
 'Filter' => "petesteam",
-'Team' => "Default Team Name Memorial XV",
+'Team' => "Dr Aftlove, or: How I Learned to Stop Worrying and Love Saido Berahino as a <strike>Second</strike> <strike>Seventh</strike> Thirteenth Round Pick, Sponsored by Torque, It's What Moves Boulders XV",
 'Players' => array(
 (["Begovic", "Bournemouth", "Goalkeeper"]),
 (["Lloris", "Spurs", "Goalkeeper"]),
@@ -32,7 +32,7 @@ $pete = array(
 $twm = array(
 'Name' => "Twm",
 'Filter' => "twmsteam",
-'Team' => "Default Team Name Memorial XV",
+'Team' => "Alexis Sanchez Diazepam Repeat Prescription Memorial XIV",
 'Players' => array(
 (["Pickford", "Everton", "Goalkeeper"]),
 (["Hennessey", "Crystal Palace", "Goalkeeper"]),
@@ -86,7 +86,7 @@ $samg = array(
 'Team' => "Jean-Claude Jünker Festival of Friendship Memorial XXVIII XV",
 'Players' => array(
 (["Lössl","Huddersfield","Goalkeeper"]), 
-(["Pantilimon", "Watford", "Goalkeeper"]),
+(["Pantilimon", 0, "Goalkeeper"]),
 (["Bellerín", "Arsenal","Defender"]), 
 (["Lovren", "Liverpool","Defender"]), 
 (["Olsson", "Swansea","Defender"]), 
@@ -156,7 +156,7 @@ $dan = array(
 (["Capoue", "Watford", "Midfielder"]),
 (["Klaassen", "Everton", "Midfielder"]),
 (["Allen", "Stoke", "Midfielder"]),
-(["Snodgrass", "West Ham", "Midfielder"]),
+(["Snodgrass", 0, "Midfielder"]),
 (["Mounie", "Huddersfield", "Forward"]),
 (["Kane", "Spurs", "Forward"]),
 (["Lukaku", "Man Utd", "Forward"])
@@ -173,7 +173,7 @@ $christ = array(
 
 'Filter' => "christsteam",
 
-'Team' => "Default Team Name Memorial XV",
+'Team' => "There's No I in Team But There Is an I in the Thomas Lemar Memorial XIV.",
 'Players' => array(
 (["de Gea", "Man Utd", "Goalkeeper"]),
 (["Butland", "Stoke", "Goalkeeper"]),
