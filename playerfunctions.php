@@ -175,6 +175,7 @@ function by_score($players){
 //NOTE array length has to be same for all players, otherwise it gets messy
 //so don't sort selected and unselected players together
 
+  //26/09/2017 add top ten thingy
 
 for($i = 0;$i < count($players);$i++){
 
@@ -187,9 +188,15 @@ rsort($players);
 for($i = 0; $i < count($players); $i++){
 
 $junk = array_shift($players[$i]);
-
+//get rid of the score added to the start of the array
 }
-
+  
+//add star to best ten players
+for ($i = 0; $i < 10; $i++){
+$name = $players[$i]['name']; 
+$players[$i]['name'] = "&star; " . $name;
+}
+  
 return $players;
 
 } // end function by_score($players)
