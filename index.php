@@ -63,6 +63,12 @@ include_once('playerfunctions.php');
 	
 $players = by_score($players);
 
+//add star to best ten players
+for ($i = 0; $i < 10; $i++){
+$name = $players[$i]['name']; 
+$players[$i]['name'] = "&star; " . $name;
+}
+	
 $table = array();
 
 foreach ($teams as $team){
