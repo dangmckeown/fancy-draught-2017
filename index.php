@@ -60,6 +60,8 @@
 include_once('dataconnect.php');
 
 include_once('playerfunctions.php');
+	
+$players = by_score($players);
 
 $table = array();
 
