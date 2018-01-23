@@ -41,7 +41,7 @@ $twm = array(
 (["Alderweireld", "Spurs", "Defender"]),
 (["van Dijk", "Liverpool", "Defender"]),
 (["Zabaleta", "West Ham", "Defender"]),
-(["Sánchez", "Arsenal", "Midfielder"]),
+(["Sánchez", "Man Utd", "Midfielder"]),
 (["Kanté", "Chelsea" , "Midfielder"]),
 (["Shaqiri", "Stoke", "Midfielder"]),
 (["Sané", "Man City", "Midfielder"]),
