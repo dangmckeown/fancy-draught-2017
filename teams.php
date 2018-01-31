@@ -47,7 +47,7 @@ $twm = array(
 (["Sané", "Man City", "Midfielder"]),
 (["Martial", "Man Utd", "Midfielder"]),
 (["Okazaki", "Leicester", "Forward"]),
-(["Sturridge", "Liverpool", "Forward"]),
+(["Sturridge", "West Brom", "Forward"]),
 (["Vokes", "Burnley", "Forward"])
 )
 //remember to insert commas
