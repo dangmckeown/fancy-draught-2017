@@ -124,7 +124,7 @@ $joe = array(
 (["Son", "Spurs", "Midfielder"]),
 (["Sigurdsson", "Everton", "Midfielder"]),
 (["Coutinho", 103, "Midfielder"]),
-(["Giroud", "Arsenal", "Forward"]),
+(["Giroud", "Chelsea", "Forward"]),
 (["Carroll", "West Ham", "Forward"]),
 (["Vardy", "Leicester", "Forward"])
 //remember to insert commas
