@@ -45,7 +45,7 @@
 
 <center>
 <div id="header"><table><tr><td>
-<h1>Fantasy Draft League 2016-17</h1>
+<h1>Fantasy Draft League 2017-18</h1>
 <h2>You pays your money, you takes your choice. <br />Except in this case, you don't pays your money.</h2>
 </td>
 <td style="text-align:center;" id="header_image">
