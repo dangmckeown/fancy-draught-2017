@@ -175,7 +175,7 @@ $christ = array(
 
 'Team' => "There's No I in Team But There Is an I in the Thomas Lemar Memorial XIV.",
 'Players' => array(
-(["de Gea", "Man Utd", "Goalkeeper"]),
+(["De Gea", "Man Utd", "Goalkeeper"]),
 (["Butland", "Stoke", "Goalkeeper"]),
 (["Alonso", "Chelsea", "Defender"]),
 (["Rose", "Spurs", "Defender"]),
