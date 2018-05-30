@@ -197,7 +197,53 @@ return $players;
 
 } // end function by_score($players)
 
+//=========================
 
+function by_disciplinary($players){
+
+//sorts players by disciplinary
+
+for($i = 0;$i < count($players);$i++){
+
+array_unshift($players[$i],$players[$i]['disciplinary']);
+
+}
+
+rsort($players);
+
+for($i = 0; $i < count($players); $i++){
+
+$junk = array_shift($players[$i]);
+//get rid of the score added to the start of the array
+}
+  
+return $players;
+
+} // end function by_disciplinary($players)
+
+//=========================
+
+function by_goals($players){
+
+//sorts players by goals
+
+for($i = 0;$i < count($players);$i++){
+
+array_unshift($players[$i],$players[$i]['goals']);
+
+}
+
+rsort($players);
+
+for($i = 0; $i < count($players); $i++){
+
+$junk = array_shift($players[$i]);
+//get rid of the score added to the start of the array
+}
+  
+return $players;
+
+} // end function by_goals($players)
 
 //=========================
 
