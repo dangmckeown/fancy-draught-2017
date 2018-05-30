@@ -1,7 +1,8 @@
 <html lang="en">
   <head>
-    <title>Fantasy draft 2017-18</title>
+    <title>Fantasy World Cup 2018</title>
 <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    
     <style>
     body {
 		font-family: "Arial Narrow";
@@ -18,18 +19,25 @@
 	width: 200px;
 }
    @media screen and (min-width: 401px){
-	
+   
+   #header{
+	text-align: center;
+}
+   
+	#header-image{
+	width:250px;
+}
 	.teaminfo, .bench, #awards	{ margin-left: 20%; }
     	.starting { text-align: center;}
-      .goalkeeper, .defender, .midfielder, .forward{ display: inline-block; width: 200px; padding-bottom: 5px;}
+      .gk, .def, .mid, .str{ display: inline-block; width: 200px; padding-bottom: 5px;}
       .row{ display: block;padding-bottom:15px;}
       .sub{display: block; padding:0;border: 1px black solid;}
       
      }
      
        @media screen and (max-width: 400px){
-	
-#header table, #header tr, #header td, #header-image  {	width: 100%; }
+
+	#header table, #header tr, #header td, #header-image  {	width: 100%; }
     	.starting { text-align: left;}
       .goalkeeper, .defender, .midfielder, .forward{ display: inline-block; width: 200px; }
       .row{ display: block;padding-bottom:3px;}
@@ -43,25 +51,19 @@
 
 <body>
 
-<center>
-<div id="header"><table><tr><td>
-<h1>Fantasy Draft League 2017-18</h1>
-<h2>You pays your money, you takes your choice. <br />Except in this case, you don't pays your money.</h2>
-</td>
-<td style="text-align:center;" id="header_image">
-<img style="width:200px;" src="https://upload.wikimedia.org/wikipedia/commons/5/57/Mobfooty.jpg" />
-</td></tr>
-</table>
+
+<div id="header">
+<h1>The Official* Tears of a Clown / 28 Years Later / I Got Something in my Eye and Now I'm Running Around Biting People Like Luis Suarez Fantasy World Cup Draft</h1>
+<center><img style="width:200px;" src="https://i2-prod.chroniclelive.co.uk/sport/football/article7176220.ece/ALTERNATES/s615/preview_WA127551.jpg" /></center>
+<h2>Sponsored by extremely dated pop culture references and the law of diminishing returns</h2>
+<p><sup>*not <b>that</b> official</sup></p>
+
 
 </div>
-</center>
+
 <?php
 
 include_once('dataconnect.php');
-
-#include_once('playerfunctions.php');
-	
-$players = by_score($players);
 
 
 //add star to best ten players
@@ -69,21 +71,20 @@ for ($i = 0; $i < 10; $i++){
 $name = $players[$i]['name']; 
 $players[$i]['name'] = "&star; " . $name;
 }
-
-#var_dump($players);
 	
 $table = array();
 
 foreach ($teams as $team){
-#var_dump($team);
+
 $squad = array_filter($players,$team['Filter']);
-#var_dump($squad);
+
 $table[] = ([net($squad),$team['Name']]);
 }
 
 rsort($table);
 
 ?>
+
 <center>
 <table>
 <thead><th>Manager</th><th>Points</th></thead>
@@ -118,30 +119,52 @@ $players = by_score($players);
 $mvps = ([$players[0],$players[1],$players[2]]);
 $count = count($players);
 $mingers = ([$players[$count - 1], $players[$count - 2], $players[$count - 3]]);
-var_dump($players);
 
 $players = by_position($players);
 
 $goldengloves = ([$players[0],$players[1],$players[2]]);
 
-echo "<div id='awards'>";
+$players = by_goals($players);
+
+$goldenboots = ([$players[0],$players[1],$players[2]]);
+
+$players = by_disciplinary($players);
+
+$disciplinary = ([$players[0],$players[1],$players[2]]);
+
+?>
+
+<div id="awards">
+
+<?php
   
-echo "<h5>MVPs</h5><ol>";
+echo "<h5>The Mr Van Persie Memorial Award (MVPs)</h5><ol>";
 foreach ($mvps as $mvp){
 echo "<li>{$mvp['name']} &ndash; {$mvp['points']}</li>";
 }
 echo "</ol>";
 
-echo "<h5>Mingers</h5><ol>";
+echo "<h5>The Oleg Salenko Banging Them In For Fun Memorial Award</h5><ol>";
+foreach ($goldenboots as $gold){
+echo "<li>{$gold['name']} &ndash; {$gold['goals']} goals</li>";
+}
+echo "</ol>";
+
+echo "<h5>The Lev Who? Rob Green Va-Va-Vuvuzela Memorial Golden Gloves Award</h5><ol>";
+foreach ($goldengloves as $gold){
+echo "<li>{$gold['name']} &ndash; {$gold['points']}</li>";
+}
+echo "</ol>";
+
+echo "<h5>The Theo Walcott Memorial Trophy (for anyone who's racked up as many World Cup points as Tyrone Mings)</h5><ol>";
 foreach ($mingers as $ming){
 echo "<li>{$ming['name']} &ndash; {$ming['points']}</li>";
 }
 echo "</ol>";
 
-
-echo "<h5>Golden Gloves</h5><ol>";
-foreach ($goldengloves as $gold){
-echo "<li>{$gold['name']} &ndash; {$gold['points']}</li>";
+echo "<h5>The Benjamin Massing / Battle of Santiago Disciplinary Award</h5><ol>";
+foreach ($disciplinary as $disciple){
+echo "<li>{$disciple['name']} &ndash; {$disciple['red']} red cards, {$disciple['yellow']} yellow cards,</li>";
 }
 echo "</ol>";
 
@@ -150,6 +173,6 @@ echo "</ol>";
   
 </div>
   
-  </body>
+</body>
     
-    </html>
+</html>
