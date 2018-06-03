@@ -29,28 +29,27 @@ $pete = array(
 //remember to insert commas
 ); //End $pete
 
-/*
 
 $twm = array(
 'Name' => "Twm",
 'Filter' => "twmsteam",
 'Team' => "Alexis Sanchez Diazepam Repeat Prescription Memorial XIV",
 'Players' => array(
-(["Pickford", "Everton", "Goalkeeper"]),
-(["Hennessey", "Crystal Palace", "Goalkeeper"]),
-(["Prödl", "Watford", "Defender"]),
-(["Aké", "Bournemouth", "Defender"]),
-(["Alderweireld", "Spurs", "Defender"]),
-(["van Dijk", "Liverpool", "Defender"]),
-(["Zabaleta", "West Ham", "Defender"]),
-(["Sánchez", "Man Utd", "Midfielder"]),
-(["Kanté", "Chelsea" , "Midfielder"]),
-(["Shaqiri", "Stoke", "Midfielder"]),
-(["Sané", "Man City", "Midfielder"]),
-(["Martial", "Man Utd", "Midfielder"]),
-(["Okazaki", "Leicester", "Forward"]),
-(["Sturridge", "West Brom", "Forward"]),
-(["Vokes", "Burnley", "Forward"])
+(['Ospina, D', 'Colombia', 'GK']),
+(['N'Diaye, K', 'Senegal', 'GK']),
+(['Marcelo', 'Brazil', 'DEF']),
+(['Yoshida, M', 'Japan', 'DEF']),
+(['Moreno, H', 'Mexico', 'DEF']),
+(['Ramos, S', 'Spain', 'DEF']),
+(['Godin, D', 'Uruguay', 'DEF']),
+(['de Bruyne, K', 'Belgium', 'MID']),
+(['Eriksen, C', 'Denmark', 'MID']),
+(['Draxler, J', 'Germany', 'MID']),
+(['Iwobi, A', 'Nigeria', 'MID']),
+(['Flores, E', 'Peru', 'MID']),
+(['Messi, L', 'Argentina', 'STR']),
+(['Lewandowski, R', 'Poland', 'STR']),
+(['Heung-min, S', 'South Korea', 'STR'])
 )
 //remember to insert commas
 ); //End $twm
@@ -62,21 +61,21 @@ $holly = array(
 
 'Team' => "The Owl and the Pussycat Pea Green Boaters",
 'Players' => array(
-(["Fabianski", "Swansea", "Goalkeeper"]),
-(["Hart", "West Ham", "Goalkeeper"]),
-(["Koscielny", "Arsenal", "Defender"]),
-(["Fuchs", "Leicester", "Defender"]),
-(["Lowton", "Burnley", "Defender"]),
-(["Shawcross",	"Stoke", "Defender"]),
-(["McAuley", "West Brom", "Defender"]),
-(["Fàbregas", "Chelsea", "Midfielder"]),
-(["Groß", "Brighton", "Midfielder"]),
-(["Barkley", "Chelsea", "Midfielder"]),
-(["Matic", "Man Utd", "Midfielder"]),
-(["Alli", "Spurs", "Midfielder"]),
-(["Agüero", "Man City", "Forward"]),
-(["Benteke", "Crystal Palace", "Forward"]),
-(["Firmino", "Liverpool", "Forward"])
+(['Neuer, M', 'Germany', 'GK']),
+(['Halldorsson, H', 'Iceland', 'GK']),
+(['Degenek, M', 'Australia', 'DEF']),
+(['Vertonghen, J', 'Belgium', 'DEF']),
+(['Gamboa, C', 'Costa Rica', 'DEF']),
+(['Echiejile, E', 'Nigeria', 'DEF']),
+(['Machado, A', 'Panama', 'DEF']),
+(['Coutinho, P', 'Brazil', 'MID']),
+(['Cardona, E', 'Colombia', 'MID']),
+(['Lemar, T', 'France', 'MID']),
+(['Herrera, H', 'Mexico', 'MID']),
+(['Iniesta, A', 'Spain', 'MID']),
+(['Cavani, E', 'Uruguay', 'STR']),
+(['Salah, M', 'Egypt', 'STR']),
+(['Higuain, G', 'Argentina', 'STR'])
 )
 //remember to insert commas
 ); //End $holly
@@ -85,26 +84,27 @@ $samg = array(
 
 'Filter' => "samuelsteam",
 
-'Team' => "Jean-Claude Jünker Festival of Friendship Memorial XXVIII XV",
+'Team' => "Premier League 'Best League In The World'&trade; Memorial XV",
 'Players' => array(
-(["Lössl","Huddersfield","Goalkeeper"]), 
-(["Pantilimon", 0, "Goalkeeper"]),
-(["Bellerín", "Arsenal","Defender"]), 
-(["Lovren", "Liverpool","Defender"]), 
-(["Olsson", "Swansea","Defender"]), 
-(["Zouma", "Stoke","Defender"]), 
-(["Riedewald", "Crystal Palace", "Defender"]), 
-(["Hazard", "Chelsea", "Midfielder"]), 
-(["Eriksen", "Spurs", "Midfielder"]), 
-(["Bernardo Silva", "Man City","Midfielder"]), 
-(["Arnautovic", "West Ham","Midfielder"]),
-(["Brady", "Burnley","Midfielder"]),
-(["King",	"Bournemouth","Forward"]),
-(["Gabbiadini", "Southampton","Forward"]),
-(["Rooney", "Everton","Forward"])
+(['Subasic, D', 'Croatia', 'GK']),
+(['El Hadary, E', 'Egypt', 'GK']),
+(['Meunier, T', 'Belgium', 'DEF']),
+(['Mina, Y', 'Colombia', 'DEF']),
+(['Kimmich, J', 'Germany', 'DEF']),
+(['Torres, R', 'Panama', 'DEF']),
+(['Mbodji, K', 'Senegal', 'DEF']),
+(['di Maria, A', 'Argentina', 'MID']),
+(['Rogic, T', 'Australia', 'MID']),
+(['Bolanos, C', 'Costa Rica', 'MID']),
+(['Jahanbakhsh, A', 'Iran', 'MID']),
+(['Isco', 'Spain', 'MID']),
+(['Neymar', 'Brazil', 'STR']),
+(['Mbappe, K', 'France', 'STR']),
+(['Suarez, L', 'Uruguay', 'STR']),
 )
 //remember to insert commas
 ); //End $samg
+
 $joe = array(
 
 //GK Heaton, Gomes Def - Daniels, Williams, Pieters, D Luiz, Dawson Mid- Pogba D. Silva, Son, Sigardson, Coutinho
@@ -147,21 +147,21 @@ $dan = array(
 
 'Team' => "Stan Kroenke 'Three Lions On My Wall / Thin Out Their Numbers / Well I Didn't Know He Was Bloody Called Cecil' Memorial XV",
 'Players' => array(
-(["Cech", "Arsenal", "Goalkeeper"]),
-(["Ryan", "Brighton", "Goalkeeper"]),
-(["Milner", "Liverpool", "Defender"]),
-(["Cahill", "Chelsea", "Defender"]),
-(["Steve Cook", "Bournemouth", "Defender"]),
-(["Bertrand", "Southampton", "Defender"]),
-(["Walker", "Man City", "Defender"]),
-(["Zaha", "Crystal Palace", "Midfielder"]),
-(["Capoue", "Watford", "Midfielder"]),
-(["Klaassen", "Everton", "Midfielder"]),
-(["Allen", "Stoke", "Midfielder"]),
-(["Snodgrass", 0, "Midfielder"]),
-(["Mounie", "Huddersfield", "Forward"]),
-(["Kane", "Spurs", "Forward"]),
-(["Lukaku", "Man Utd", "Forward"])
+(['Ryan, M', 'Australia', 'GK']),
+(['Schmeichel, K', 'Denmark', 'GK']),
+(['Hegazi, A', 'Egypt', 'DEF']),
+(['Ayala, H', 'Mexico', 'DEF']),
+(['Troost-Ekong, W', 'Nigeria', 'DEF']),
+(['Koulibaly, K', 'Senegal', 'DEF']),
+(['Pique, G', 'Spain', 'DEF']),
+(['Paulinho', 'Brazil', 'MID']),
+(['Rodriguez, J', 'Colombia', 'MID']),
+(['Sanchez, C', 'Uruguay', 'MID']),
+(['Ruiz, B', 'Costa Rica', 'MID']),
+(['Muller, T', 'Germany', 'MID']),
+(['Aguero, S', 'Argentina', 'STR']),
+(['Lukaku, R', 'Belgium', 'STR']),
+(['Mandzukic, M', 'Croatia', 'STR'])
 )
 );
 
@@ -177,21 +177,21 @@ $christ = array(
 
 'Team' => "There's No I in Team But There Is an I in the Thomas Lemar Memorial XIV.",
 'Players' => array(
-(["De Gea", "Man Utd", "Goalkeeper"]),
-(["Butland", "Stoke", "Goalkeeper"]),
-(["Alonso", "Chelsea", "Defender"]),
-(["Rose", "Spurs", "Defender"]),
-(["Baines", "Everton", "Defender"]),
-(["Cédric", "Southampton", "Defender"]),
-(["Mee", "Burnley", "Defender"]),
-(["De Bruyne", "Man City", "Midfielder"]),
-(["Ince", "Huddersfield", "Midfielder"]),
-(["Ritchie", "Newcastle", "Midfielder"]),
-(["Lemar", 0, "Midfielder"]),
-(["Mané", "Liverpool", "Midfielder"]),
-(["Lacazette", "Arsenal", "Forward"]),
-(["Defoe", "Bournemouth", "Forward"]),
-(["Chicharito", "West Ham", "Forward"])
+(['Navas, K', 'Costa Rica', 'GK']),
+(['Muslera, F', 'Uruguay', 'GK']),
+(['Silva, T', 'Brazil', 'DEF']),
+(['Sanchez, D', 'Colombia', 'DEF']),
+(['Abdel-Shafy, M', 'Egypt', 'DEF']),
+(['Hummels, M', 'Germany', 'DEF']),
+(['Ramos, C', 'Peru', 'DEF']),
+(['Mooy, A', 'Australia', 'MID']),
+(['Hazard, E', 'Belgium', 'MID']),
+(['Honda, K', 'Japan', 'MID']),
+(['Moses, V', 'Nigeria', 'MID']),
+(['Al-Shehri, Y', 'Saudi Arabia', 'MID']),
+(['Kane, H', 'England', 'STR']),
+(['Griezmann, A', 'France', 'STR']),
+(['Ronaldo, C', 'Portugal', 'STR'])
 )
 );
 
@@ -234,4 +234,4 @@ $samba = array(
 $teams = array($twm,$samg,$pete,$joe,$holly,$christ,$dan, $samba);
 */
 
-$teams = array($pete);
+$teams = array($christ,$pete,$dan,$twm,$holly,$samg);
