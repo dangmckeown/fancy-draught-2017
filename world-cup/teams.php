@@ -10,21 +10,21 @@ $pete = array(
 'Filter' => "petesteam",
 'Team' => "Dr Aftlove, or: How I Learned to Stop Worrying and Love Saido Berahino as a <strike>Second</strike> <strike>Seventh</strike> Thirteenth Round Pick, Sponsored by Torque, It's What Moves Boulders XV",
 'Players' => array(
-(["Neuer, M", "Germany", "GK"]),
+(["Alisson", "Brazil", "GK"]),
 (["de Gea, D", "Spain", "GK"]),
-(["Umtiti, S", "France", "DEF"]),
-(["Alderweireld, T", "Belgium", "DEF"]),
+(["Varane, R", "France", "DEF"]),
+(["Christensen, A", "Denmark", "DEF"]),
 (["Otamendi, N", "Argentina", "DEF"]),
-(["Marcelo", "Brazil", "DEF"]),
-(["Vida, D", "Croatia", "DEF"]),
-(["Eriksen, C", "Denmark", "MID"]),
-(["Rodriguez, J", "Colombia", "MID"]),
-(["Sterling, R", "England", "MID"]),
-(["Sanchez, C", "Uruguay", "MID"]),
-(["Sigurdsson, G", "Iceland", "MID"]),
-(["Lewandowski, R", "Poland", "STR"]),
-(["Salah, M", "Egypt", "STR"]),
-(["Hernandez, J", "Mexico", "STR"])
+(["Lindelof, V", "Sweden", "DEF"]),
+(["Maaloul, A", "Tunisia", "DEF"]),
+(["Kagawa, S", "Japan", "MID"]),
+(["Cuadrado, J", "Colombia", "MID"]),
+(["Guardado, A", "Mexico", "MID"]),
+(["Mane, S", "Senegal", "MID"]),
+(["Ziyech, H", "Morocco", "MID"]),
+(["Werner, T", "Germany", "STR"]),
+(["Azmoun, S", "Iran", "STR"]),
+(["Al-Sahlawi, M", "Saudi Arabia", "STR"])
 )
 //remember to insert commas
 ); //End $pete
