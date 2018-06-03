@@ -8,7 +8,7 @@
 $pete = array(
 'Name' => "Pete Harmer",
 'Filter' => "petesteam",
-'Team' => "Dr Aftlove, or: How I Learned to Stop Worrying and Love Saido Berahino as a <strike>Second</strike> <strike>Seventh</strike> Thirteenth Round Pick, Sponsored by Torque, It's What Moves Boulders XV",
+'Team' => "Default Berahino Memorial XV",
 'Players' => array(
 (["Alisson", "Brazil", "GK"]),
 (["de Gea, D", "Spain", "GK"]),
@@ -33,7 +33,7 @@ $pete = array(
 $twm = array(
 'Name' => "Twm",
 'Filter' => "twmsteam",
-'Team' => "Alexis Sanchez Diazepam Repeat Prescription Memorial XIV",
+'Team' => "Default Team Name Memorial XIV",
 'Players' => array(
 (['Ospina, D', 'Colombia', 'GK']),
 (["N'Diaye, K", 'Senegal', 'GK']),
@@ -59,7 +59,7 @@ $holly = array(
 
 'Filter' => "hollysteam",
 
-'Team' => "The Owl and the Pussycat Pea Green Boaters",
+'Team' => "The Socceroo Putineroo Memorial Roos XV",
 'Players' => array(
 (['Neuer, M', 'Germany', 'GK']),
 (['Halldorsson, H', 'Iceland', 'GK']),
@@ -145,7 +145,7 @@ $dan = array(
 
 'Filter' => "dansteam",
 
-'Team' => "Stan Kroenke 'Three Lions On My Wall / Thin Out Their Numbers / Well I Didn't Know He Was Bloody Called Cecil' Memorial XV",
+'Team' => "Stick It Up Your Bollocks Roy Keane Doggy Daycare Memorial XV",
 'Players' => array(
 (['Ryan, M', 'Australia', 'GK']),
 (['Schmeichel, K', 'Denmark', 'GK']),
@@ -175,7 +175,7 @@ $christ = array(
 
 'Filter' => "christsteam",
 
-'Team' => "There's No I in Team But There Is an I in the Thomas Lemar Memorial XIV.",
+'Team' => "Default Team Name Memorial XIV.",
 'Players' => array(
 (['Navas, K', 'Costa Rica', 'GK']),
 (['Muslera, F', 'Uruguay', 'GK']),
