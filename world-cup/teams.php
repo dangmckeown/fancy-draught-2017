@@ -36,7 +36,7 @@ $twm = array(
 'Team' => "Alexis Sanchez Diazepam Repeat Prescription Memorial XIV",
 'Players' => array(
 (['Ospina, D', 'Colombia', 'GK']),
-(['N'Diaye, K', 'Senegal', 'GK']),
+(["N'Diaye, K", 'Senegal', 'GK']),
 (['Marcelo', 'Brazil', 'DEF']),
 (['Yoshida, M', 'Japan', 'DEF']),
 (['Moreno, H', 'Mexico', 'DEF']),
