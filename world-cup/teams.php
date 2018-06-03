@@ -175,7 +175,7 @@ $christ = array(
 
 'Filter' => "christsteam",
 
-'Team' => "Default Team Name Memorial XIV.",
+'Team' => "The England Men's National Football Team Memorial XV",
 'Players' => array(
 (['Navas, K', 'Costa Rica', 'GK']),
 (['Muslera, F', 'Uruguay', 'GK']),
