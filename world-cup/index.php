@@ -132,7 +132,7 @@ $players = by_disciplinary($players);
 
 $disciplinary = ([$players[0],$players[1],$players[2]]);
 	
-$players = by_missed_pk($players);
+$players = by_pk_missed($players);
 	
 $batties = ([$players[0],$players[1],$players[2]]);
 	
