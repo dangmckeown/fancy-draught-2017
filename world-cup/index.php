@@ -53,7 +53,7 @@
 
 
 <div id="header">
-<h1>The Official* Tears of a Clown / 28 Years Later / I Got Something in my Eye and Now I'm Running Around Biting People Like Luis Suarez Fantasy World Cup Draft</h1>
+<h1>The Official* Tears of a Clown / 28 Years Later / I Got Something in my Eye and Now I'm Running Around Biting People Like Luis Suarez Memorial Fantasy World Cup Draft</h1>
 <center><img style="width:200px;" src="https://i2-prod.chroniclelive.co.uk/sport/football/article7176220.ece/ALTERNATES/s615/preview_WA127551.jpg" /></center>
 <h2>Sponsored by extremely dated pop culture references and the law of diminishing returns</h2>
 <p><sup>*not <b>that</b> official</sup></p>
@@ -131,7 +131,11 @@ $goldenboots = ([$players[0],$players[1],$players[2]]);
 $players = by_disciplinary($players);
 
 $disciplinary = ([$players[0],$players[1],$players[2]]);
-
+	
+$players = by_missed_pk($players);
+	
+$batties = ([$players[0],$players[1],$players[2]]);
+	
 ?>
 
 <div id="awards">
@@ -162,12 +166,17 @@ echo "<li>{$ming['name']} &ndash; {$ming['points']}</li>";
 }
 echo "</ol>";
 
-echo "<h5>The Benjamin Massing / Battle of Santiago Disciplinary Award</h5><ol>";
+echo "<h5>The Benjamin Massing / Battle of Santiago Memorial Disciplinary Award</h5><ol>";
 foreach ($disciplinary as $disciple){
-echo "<li>{$disciple['name']} &ndash; {$disciple['red']} red cards, {$disciple['yellow']} yellow cards,</li>";
+echo "<li>{$disciple['name']} &ndash; {$disciple['red']} red cards, {$disciple['yellow']} yellow cards</li>";
 }
 echo "</ol>";
 
+echo "<h5>The 50 Years of Hurt \"Kevin, you know him better than anyone - will he score?\" Memorial Award for Hapless Penalty Shanking</h5><ol>";
+foreach ($batties as $batty){
+echo "<li>{$disciple['name']} &ndash; {$disciple['missedpen']} missed, {$disciple['pensave']} saved</li>";
+}
+echo "</ol>";
              
   ?>
   
