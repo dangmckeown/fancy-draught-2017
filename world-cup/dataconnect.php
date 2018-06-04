@@ -22,7 +22,7 @@ foreach($data as $dat){
 foreach ($stats as $stat){
 $temp = explode('"',$stat);
 $i = $temp[3];
-#var_dump($temp);
+var_dump($temp);
 $import_players[$i]['name'] = (string)$temp[9];
 $import_players[$i]['club'] = (string)$temp[7];
 $import_players[$i]['position'] = (string)$temp[5];
@@ -32,6 +32,7 @@ $import_players[$i]['goals'] = (int)$temp[41];
 $import_players[$i]['yellow'] = (int)$temp[29];
 $import_players[$i]['red'] = (int)$temp[31];
 $import_players[$i]['disciplinary'] = 2 * $import_players[$i]['red'] + $import_players[$i]['yellow'];
+
 }
 
 
