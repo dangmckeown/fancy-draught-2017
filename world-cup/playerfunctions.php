@@ -247,9 +247,7 @@ $junk = array_shift($players[$i]);
   
 return $players;
 
-} // end function by_disciplinary($players)
-
-//=========================
+} // end function by_pk_missed($players)
 
 //=========================
 
