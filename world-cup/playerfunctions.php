@@ -27,6 +27,10 @@
 //displayteam($players)
   //returns lined-up squad as html code, players separated into <div> tags 
   // which can be styled with CSS
+  
+//additions for world cup
+  //by_disciplinary($players)
+  //by_pk_misse($players)
 
 */
 
@@ -220,6 +224,32 @@ $junk = array_shift($players[$i]);
 return $players;
 
 } // end function by_disciplinary($players)
+
+//=========================
+
+function by_pk_missed($players){
+
+//sorts players by disciplinary
+
+for($i = 0;$i < count($players);$i++){
+
+array_unshift($players[$i],$players[$i]['missedpen'] + $players[$i]['pensave']);
+
+}
+
+rsort($players);
+
+for($i = 0; $i < count($players); $i++){
+
+$junk = array_shift($players[$i]);
+//get rid of the score added to the start of the array
+}
+  
+return $players;
+
+} // end function by_disciplinary($players)
+
+//=========================
 
 //=========================
 
