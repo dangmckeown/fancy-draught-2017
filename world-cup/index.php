@@ -174,7 +174,7 @@ echo "</ol>";
 
 echo "<h5>The 50 Years of Hurt \"Kevin, you know him better than anyone - will he score?\" Memorial Award for Hapless Penalty Shanking</h5><ol>";
 foreach ($batties as $batty){
-echo "<li>{$disciple['name']} &ndash; {$disciple['missedpen']} missed, {$disciple['pensave']} saved</li>";
+echo "<li>{$batty['name']} &ndash; {$batty['missedpen']} missed, {$batty['pensave']} saved</li>";
 }
 echo "</ol>";
              
