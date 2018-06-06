@@ -114,21 +114,21 @@ $joe = array(
 
 'Team' => "Default Team Name Memorial XV",
 'Players' => array(
-(["Heaton", "Burnley", "Goalkeeper"]),
-(["Gomes", "Watford", "Goalkeeper"]),
-(["Daniels", "Bournemouth", "Defender"]),
-(["Williams", "Everton", "Defender"]),
-(["Pieters", "Stoke", "Defender"]),
-(["David Luiz", "Chelsea", "Defender"]),
-(["Dawson", "West Brom", "Defender"]),
-(["Pogba", "Man Utd", "Midfielder"]),
-(["David Silva", "Man City", "Midfielder"]),
-(["Son", "Spurs", "Midfielder"]),
-(["Sigurdsson", "Everton", "Midfielder"]),
-(["Coutinho", 103, "Midfielder"]),
-(["Giroud", "Chelsea", "Forward"]),
-(["Carroll", "West Ham", "Forward"]),
-(["Vardy", "Leicester", "Forward"])
+(['Ezenwa, I', 'Nigeria', 'GK']),
+(['Al Mosailem, Y', 'Saudi Arabia', 'GK']),
+(['Mascherano, J', 'Argentina', 'DEF']),
+(['Arias, S', 'Colombia', 'DEF']),
+(['Benatia, M', 'Morocco', 'DEF']),
+(['Alba, J', 'Spain', 'DEF']),
+(['Gimenez, J', 'Uruguay', 'DEF']),
+(['Trezeguet', 'Egypt', 'MID']),
+(['Sterling, R', 'England', 'MID']),
+(['Pogba, P', 'France', 'MID']),
+(['Ozil, M', 'Germany', 'MID']),
+(['Silva, B', 'Portugal', 'MID']),
+(['Jesus, G', 'Brazil', 'STR']),
+(['Hernandez, J', 'Mexico', 'STR']),
+(['Guerrero, P', 'Peru', 'STR'])
 //remember to insert commas
 )
 );
@@ -234,4 +234,4 @@ $samba = array(
 $teams = array($twm,$samg,$pete,$joe,$holly,$christ,$dan, $samba);
 */
 
-$teams = array($christ,$pete,$dan,$twm,$holly,$samg);
+$teams = array($christ,$pete,$dan,$twm,$holly,$samg,$joe);
