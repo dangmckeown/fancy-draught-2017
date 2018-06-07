@@ -95,7 +95,7 @@ $samg = array(
 (['Mbodji, K', 'Senegal', 'DEF']),
 (['di Maria, A', 'Argentina', 'MID']),
 (['Rogic, T', 'Australia', 'MID']),
-(['Bolanos, C', 'Costa Rica', 'MID']),
+(['dos Santos, G', 'Mexico', 'MID']),
 (['Jahanbakhsh, A', 'Iran', 'MID']),
 (['Isco', 'Spain', 'MID']),
 (['Neymar', 'Brazil', 'STR']),
