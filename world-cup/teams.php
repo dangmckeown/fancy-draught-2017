@@ -8,7 +8,40 @@
 $pete = array(
 'Name' => "Pete Harmer",
 'Filter' => "petesteam",
-'Team' => "Default Berahino Memorial XV",
+'Team' => "S. A. I. D. O, 
+S. A. I. D. O, 
+S. A. I. D. O, 
+S. A. I. D. O, 
+ 
+He is Saido, 
+He is Saido, 
+He is Saido, 
+ 
+He is S, sensational 
+He is A, acrimonious 
+He is I, invisible, 
+He is D, disastrous 
+He is Oh, oooh, ohhh 
+ 
+He is S, Selectable 
+He is A, always there, 
+He is I, incredible, 
+He is D, dependable, 
+He is O, ooohhh ohhh 
+ 
+S. A. I. D. O, 
+S. A. I. D. O, 
+S. A. I. D. O, 
+S. A. I. D. O, 
+ 
+He is Saido 
+He is Saido 
+ 
+He is S, somewhere, 
+He is A, apparently, 
+He is I, intentionally 
+He is D, dreadful 
+He is O, oh ohhhh",
 'Players' => array(
 (["Alisson", "Brazil", "GK"]),
 (["de Gea, D", "Spain", "GK"]),
