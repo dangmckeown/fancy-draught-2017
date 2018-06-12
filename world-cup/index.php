@@ -107,7 +107,7 @@ foreach ($table as $tab){
 
 foreach ($teams as $team){
 $squad = array_filter($players,$team['Filter']);
-echo "<div class='teaminfo'>\n<hr />\n<h4>" .$team['Name'] . "</h4>\n\n";
+echo "<div class='teaminfo'>\n<hr />\n<h4>" .$team['Team'] . "</h4>\n\n";
 if($team['Name'] != 'Pete Harmer'){
 echo "<h3>" . $team['Team'] . "</h3>\n\n";
 }
