@@ -8,39 +8,39 @@
 $pete = array(
 'Name' => "Pete Harmer",
 'Filter' => "petesteam",
-'Team' => "S. A. I. D. O, 
-S. A. I. D. O, 
-S. A. I. D. O, 
-S. A. I. D. O, 
+'Team' => "S. A. I. D. O, &nbsp;
+S. A. I. D. O, &nbsp;
+S. A. I. D. O, &nbsp;
+S. A. I. D. O, &nbsp;
  
-He is Saido, 
-He is Saido, 
-He is Saido, 
+He is Saido, &nbsp;
+He is Saido, &nbsp;
+He is Saido, &nbsp;
  
-He is S, sensational 
-He is A, acrimonious 
-He is I, invisible, 
-He is D, disastrous 
-He is Oh, oooh, ohhh 
+He is S, sensational &nbsp;
+He is A, acrimonious &nbsp;
+He is I, invisible, &nbsp;
+He is D, disastrous &nbsp;
+He is Oh, oooh, ohhh &nbsp;
  
-He is S, Selectable 
-He is A, always there, 
-He is I, incredible, 
-He is D, dependable, 
-He is O, ooohhh ohhh 
+He is S, Selectable &nbsp;
+He is A, always there, &nbsp;
+He is I, incredible, &nbsp;
+He is D, dependable, &nbsp;
+He is O, ooohhh ohhh &nbsp;
  
-S. A. I. D. O, 
-S. A. I. D. O, 
-S. A. I. D. O, 
-S. A. I. D. O, 
+S. A. I. D. O, &nbsp;
+S. A. I. D. O, &nbsp;
+S. A. I. D. O, &nbsp;
+S. A. I. D. O, &nbsp;
  
-He is Saido 
-He is Saido 
+He is Saido &nbsp;
+He is Saido &nbsp;
  
-He is S, somewhere, 
-He is A, apparently, 
-He is I, intentionally 
-He is D, dreadful 
+He is S, somewhere, &nbsp;
+He is A, apparently, &nbsp;
+He is I, intentionally &nbsp;
+He is D, dreadful &nbsp;
 He is O, oh ohhhh",
 'Players' => array(
 (["Alisson", "Brazil", "GK"]),
@@ -66,7 +66,7 @@ He is O, oh ohhhh",
 $twm = array(
 'Name' => "Twm",
 'Filter' => "twmsteam",
-'Team' => "Default Team Name Memorial XIV",
+'Team' => "“Sam Allardyce Pint Of Wine” Memorial XV",
 'Players' => array(
 (['Ospina, D', 'Colombia', 'GK']),
 (["N'Diaye, K", 'Senegal', 'GK']),
