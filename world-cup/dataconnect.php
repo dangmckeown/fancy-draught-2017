@@ -72,7 +72,11 @@ $players[] = $new_player;
 
 }
 
+//add star to best ten players
+$players = by_score($players);
+for ($i = 0; $i < 10; $i++){
+$players[$i]['star'] = True;
+}
 
 $players = by_position(array_filter($players,"selected"));
 
-#var_dump($players);
