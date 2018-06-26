@@ -70,8 +70,12 @@ $new_player = array(
 	foreach($import_players as $import){
 	
 	if($new_player['name'] == $import['name'] && $new_player['club'] == $import['club'] && $new_player['position'] == $import['position']){
+		// preserve manager to re-add
+		$man = $new_player['manager']
 		// copy values across
 		$new_player = $import;
+		//re-add manager
+		$new_player['manager'] = $man;
 		// initialise star property
 		$new_player['star'] = False;
 	}
