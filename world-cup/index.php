@@ -155,7 +155,7 @@ echo "</ol>";
 
 echo "<h5>The Lev Who? Rob Green Va-Va-Vuvuzela Memorial Golden Gloves Award</h5><ol>";
 foreach ($goldengloves as $gold){
-echo "<li>{$gold['name']}: {$gold['points']} points ({$gold['full clean sheets']} clean sheets)</li>";
+echo "<li>{$gold['name']}: {$gold['points']} points ({$gold['full clean sheet']} clean sheets)</li>";
 }
 echo "</ol>";
 
@@ -180,6 +180,7 @@ echo "</ol>";
 
 echo "<h5>The 50 Years of Hurt \"Kevin, you know him better than anyone - will he score?\" Memorial Award for Hapless Penalty Shanking</h5><ol>";
 foreach ($batties as $batty){
+if($batty['missedpen'] || $batty['pensaved']){
 echo "<li>{$batty['name']}: ";
 if($batty['missedpen']){
 	echo "{$batty['missedpen']} missed <br />"; 
@@ -188,6 +189,7 @@ if($batty['pensaved']){
 	echo "{$batty['pensaved']} saved"; 
 }
 echo "</li>";
+}
 }
 echo "</ol>";
              
