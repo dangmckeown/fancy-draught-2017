@@ -26,14 +26,31 @@ $i = $temp[3];
 $import_players[$i]['name'] = (string)$temp[9];
 $import_players[$i]['club'] = (string)$temp[7];
 $import_players[$i]['position'] = (string)$temp[5];
+$import_players[$i]['games played'] = (int)$temp[47];
 $import_players[$i]['points'] = (int)$temp[15];
+$import_players[$i]['fixture points'] = (int)$temp[17];
 $import_players[$i]['value'] = (float)$temp[13];
+
+if ($temp[21] != "-"){
+$import_players[$i]['full clean sheet'] = (int)$temp[21];
+$import_players[$i]['partial clean sheet'] = (int)$temp[23];
+$import_players[$i]['conceded'] = (int)$temp[25];
+}
+else
+{
+$import_players[$i]['full clean sheet'] = False;
+$import_players[$i]['partial clean sheet'] = False;
+$import_players[$i]['conceded'] = False;
+}
+
 $import_players[$i]['goals'] = (int)$temp[41];
-$import_players[$i]['yellow'] = (int)$temp[29];
-$import_players[$i]['red'] = (int)$temp[31];
-$import_players[$i]['disciplinary'] = 2 * $import_players[$i]['red'] + $import_players[$i]['yellow'];
-$import_players[$i]['missedpen'] = (int)$temp[33];
-$import_players[$i]['pensaved'] = (int)$temp[35];
+$import_players[$i]['assists'] = (int)$temp[19];
+$import_players[$i]['yellow cards'] = (int)$temp[29];
+$import_players[$i]['red cards'] = (int)$temp[31];
+$import_players[$i]['disciplinary'] = 2 * $import_players[$i]['red cards'] + $import_players[$i]['yellow cards'];
+$import_players[$i]['missed penalties'] = (int)$temp[33];
+$import_players[$i]['penalties saved'] = (int)$temp[35];
+$import_players[$i]['own goals'] = (int)$temp[27];
 }
 
 
