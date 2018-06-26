@@ -71,7 +71,7 @@ $new_player = array(
 	
 	if($new_player['name'] == $import['name'] && $new_player['club'] == $import['club'] && $new_player['position'] == $import['position']){
 		// preserve manager to re-add
-		$man = $new_player['manager']
+		$man = $new_player['manager'];
 		// copy values across
 		$new_player = $import;
 		//re-add manager
