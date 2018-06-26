@@ -144,6 +144,15 @@ $disciplinary = ([$players[0],$players[1],$players[2]]);
 $players = by_pk_missed($players);
 	
 $batties = ([$players[0],$players[1],$players[2]]);
+
+
+$lemars = array();	
+$players = by_played($players);
+rsort($players);
+$i = 0;
+while(! $players[$i]['games played']){
+$lemars[] = $players[$i];
+}
 	
 ?>
 
@@ -203,6 +212,13 @@ echo "</li>";
 }
 echo "</ol>";
              
+echo "<h5>Thomas Lemar \"Worth a punt\" Memorial Award</h5><ol>";
+echo "<ol>";
+foreach ($lemars as $lemar){
+	echo "<li>{$lemar['name']}</li>";
+}
+echo "</ol>";
+
   ?>
   
 </div>
