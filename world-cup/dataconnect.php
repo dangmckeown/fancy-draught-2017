@@ -48,8 +48,8 @@ $import_players[$i]['assists'] = (int)$temp[19];
 $import_players[$i]['yellow cards'] = (int)$temp[29];
 $import_players[$i]['red cards'] = (int)$temp[31];
 $import_players[$i]['disciplinary'] = 2 * $import_players[$i]['red cards'] + $import_players[$i]['yellow cards'];
-$import_players[$i]['missed penalties'] = (int)$temp[33];
-$import_players[$i]['penalties saved'] = (int)$temp[35];
+$import_players[$i]['missedpen'] = (int)$temp[33];
+$import_players[$i]['pensaved'] = (int)$temp[35];
 $import_players[$i]['own goals'] = (int)$temp[27];
 }
 
@@ -70,14 +70,9 @@ $new_player = array(
 	foreach($import_players as $import){
 	
 	if($new_player['name'] == $import['name'] && $new_player['club'] == $import['club'] && $new_player['position'] == $import['position']){
-		$new_player['value'] = $import['value'];
-		$new_player['points'] = $import['points'];
-	 	$new_player['goals'] = $import['goals'];
-		$new_player['yellow'] = $import['yellow']; 
-		$new_player['red'] = $import['red'];
-		$new_player['disciplinary'] = $import['disciplinary']; 
-		$new_player['missedpen'] = $import['missedpen'];
-		$new_player['pensaved'] = $import['pensaved'];
+		// copy values across
+		$new_player = $import;
+		// initialise star property
 		$new_player['star'] = False;
 	}
 	
