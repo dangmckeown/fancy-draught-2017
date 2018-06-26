@@ -149,7 +149,7 @@ echo "</ol>";
 
 echo "<h5>The Oleg Salenko Banging Them In For Fun Memorial Award</h5><ol>";
 foreach ($goldenboots as $gold){
-echo "<li>{$gold['name']}: {$gold['goals']} goals</li>";
+echo "<li>{$gold['name']}: {$gold['goals']} goals ({$gold['assists']} assists)</li>";
 }
 echo "</ol>";
 
