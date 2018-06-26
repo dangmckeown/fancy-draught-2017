@@ -116,8 +116,18 @@ echo displayteam($squad);
 // get various player awards
 $players = by_score($players);
 $mvps = ([$players[0],$players[1],$players[2]]);
+
+// Only count as mingers if they've had some actual pitch time to show off their uselessness
 $count = count($players);
-$mingers = ([$players[$count - 1], $players[$count - 2], $players[$count - 3]]);
+$i = $count - 1;
+$j = 0;
+while($j < 3){
+if($players[$i]['games played']){
+$mingers[] = $players[$i];
+$j++;
+}
+$i--;
+}
 
 $players = by_position($players);
 
