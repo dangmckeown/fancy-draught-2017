@@ -253,11 +253,11 @@ return $players;
 
 function by_goals($players){
 
-//sorts players by goals
+//sorts players by goals & assists
 
 for($i = 0;$i < count($players);$i++){
 
-array_unshift($players[$i],$players[$i]['goals']);
+array_unshift($players[$i],$players[$i]['goals'] * 800 + $players[$i]['assists']);
 
 }
 
