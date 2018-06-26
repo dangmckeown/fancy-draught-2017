@@ -203,6 +203,30 @@ return $players;
 
 //=========================
 
+function by_played($players){
+
+//sorts players by games played
+
+for($i = 0;$i < count($players);$i++){
+
+array_unshift($players[$i],$players[$i]['games played']);
+
+}
+
+rsort($players);
+
+for($i = 0; $i < count($players); $i++){
+
+$junk = array_shift($players[$i]);
+//get rid of the score added to the start of the array
+}
+  
+return $players;
+
+} // end function by_played($players)
+
+//=========================
+
 function by_disciplinary($players){
 
 //sorts players by disciplinary
@@ -229,7 +253,7 @@ return $players;
 
 function by_pk_missed($players){
 
-//sorts players by disciplinary
+//sorts players by pks haplessly shanked
 
 for($i = 0;$i < count($players);$i++){
 
