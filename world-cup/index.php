@@ -155,25 +155,39 @@ echo "</ol>";
 
 echo "<h5>The Lev Who? Rob Green Va-Va-Vuvuzela Memorial Golden Gloves Award</h5><ol>";
 foreach ($goldengloves as $gold){
-echo "<li>{$gold['name']}: {$gold['points']} points</li>";
+echo "<li>{$gold['name']}: {$gold['points']} points ({$gold['full clean sheets']} clean sheets)</li>";
 }
 echo "</ol>";
 
 echo "<h5>The Theo Walcott Memorial Trophy (for anyone who's racked up as many World Cup points as Tyrone Mings)</h5><ol>";
 foreach ($mingers as $ming){
-echo "<li>{$ming['name']}: {$ming['points']}</li>";
+echo "<li>{$ming['name']}: {$ming['points']} points</li>";
 }
 echo "</ol>";
 
 echo "<h5>The Benjamin Massing / Battle of Santiago Memorial Disciplinary Award</h5><ol>";
 foreach ($disciplinary as $disciple){
-echo "<li>{$disciple['name']}: {$disciple['red']} red cards, {$disciple['yellow']} yellow cards</li>";
+echo "<li>{$disciple['name']}: ";
+if($disciple['red cards']){
+	echo "{$disciple['red cards']} red cards <br />"; 
+}
+if($disciple['yellow cards']){
+	echo "{$disciple['yellow cards']} yellow cards";
+}
+echo "</li>";
 }
 echo "</ol>";
 
 echo "<h5>The 50 Years of Hurt \"Kevin, you know him better than anyone - will he score?\" Memorial Award for Hapless Penalty Shanking</h5><ol>";
 foreach ($batties as $batty){
-echo "<li>{$batty['name']}: {$batty['missedpen']} missed, {$batty['pensaved']} saved</li>";
+echo "<li>{$batty['name']}: ";
+if($batty['missedpen']){
+	echo "{$batty['missedpen']} missed <br />"; 
+}
+if($batty['pensaved']){
+	echo "{$batty['pensaved']} saved"; 
+}
+echo "</li>";
 }
 echo "</ol>";
              
