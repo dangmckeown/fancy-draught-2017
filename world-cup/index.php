@@ -151,7 +151,8 @@ $players = by_played($players);
 rsort($players);
 $i = 0;
 while(! $players[$i]['games played']){
-$lemars[] = $players[$i];
+	$lemars[] = $players[$i];
+	$i++;
 }
 	
 ?>
