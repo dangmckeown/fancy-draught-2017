@@ -214,14 +214,14 @@ echo "</li>";
 }
 }
 echo "</ol>";
-             
+    /*         
 echo "<h5>Thomas Lemar \"Worth a punt\" Memorial Award</h5>";
 echo "<ol>";
 foreach ($lemars as $lemar){
 	echo "<li>{$lemar['name']}</li>";
 }
 echo "</ol>";
-
+*/
   ?>
   
 </div>
