@@ -395,7 +395,7 @@ $output .= "<div class = 'row'>";
 } 
 $output .= "<div class='".strtolower($players[$i]['position'])."'>";
 
-if(){
+if($players[$i]['star']){
   $output .= "&star; ";
 }
   
