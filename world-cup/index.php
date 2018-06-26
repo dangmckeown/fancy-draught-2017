@@ -64,14 +64,6 @@
 <?php
 
 include_once('dataconnect.php');
-
-
-//add star to best ten players
-$players = by_score($players);
-for ($i = 0; $i < 10; $i++){
-$name = $players[$i]['name']; 
-$players[$i]['name'] = "&star; " . $name;
-}
 	
 $table = array();
 
