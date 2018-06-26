@@ -393,7 +393,13 @@ for ($i=0; $i<11; $i++){
 if ($i == 0 || ($i > 0 && ( $players[$i]['position'] != $players[$i - 1]['position']))){
 $output .= "<div class = 'row'>";
 } 
-$output .= "<div class='".strtolower($players[$i]['position'])."'>{$players[$i]['name']} &ndash; {$players[$i]['points']}<br/><sup>{$players[$i]['club']}</sup></div>\n\n";
+$output .= "<div class='".strtolower($players[$i]['position'])."'>";
+
+if(){
+  $output .= "&star; ";
+}
+  
+$output .= "{$players[$i]['name']}: {$players[$i]['points']}<br/><sup>{$players[$i]['club']}</sup></div>\n\n";
 
 
 if ( $players[$i]['position'] != $players[$i + 1]['position'] || $i == 10 ){
