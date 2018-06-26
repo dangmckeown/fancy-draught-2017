@@ -150,8 +150,10 @@ $lemars = array();
 $players = by_played($players);
 rsort($players);
 $i = 0;
-while(! $players[$i]['games played']){
+while($players[$i]['games played'] == 0){
+if(! $players[$i]['points'] == 0){
 	$lemars[] = $players[$i];
+}
 	$i++;
 }
 	
@@ -213,7 +215,7 @@ echo "</li>";
 }
 echo "</ol>";
              
-echo "<h5>Thomas Lemar \"Worth a punt\" Memorial Award</h5><ol>";
+echo "<h5>Thomas Lemar \"Worth a punt\" Memorial Award</h5>";
 echo "<ol>";
 foreach ($lemars as $lemar){
 	echo "<li>{$lemar['name']}</li>";
