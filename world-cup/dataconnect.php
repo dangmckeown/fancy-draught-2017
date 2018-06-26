@@ -61,6 +61,7 @@ $new_player = array(
 		$new_player['disciplinary'] = $import['disciplinary']; 
 		$new_player['missedpen'] = $import['missedpen'];
 		$new_player['pensaved'] = $import['pensaved'];
+		$new_player['star'] = False;
 	}
 	
 	}
