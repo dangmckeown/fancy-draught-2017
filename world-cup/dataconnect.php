@@ -28,7 +28,7 @@ $import_players[$i]['club'] = (string)$temp[7];
 $import_players[$i]['position'] = (string)$temp[5];
 $import_players[$i]['games played'] = (int)$temp[47];
 $import_players[$i]['points'] = (int)$temp[15];
-$import_players[$i]['fixture points'] = (int)$temp[17];
+# $import_players[$i]['fixture points'] = (int)$temp[17];
 $import_players[$i]['value'] = (float)$temp[13];
 
 if ($temp[21] != "-"){
