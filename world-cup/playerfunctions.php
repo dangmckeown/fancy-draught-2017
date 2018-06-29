@@ -415,16 +415,24 @@ echo "<div class='starting'>";
 for ($i=0; $i<11; $i++){
 
 if ($i == 0 || ($i > 0 && ( $players[$i]['position'] != $players[$i - 1]['position']))){
-$output .= "<div class = 'row'>";
+$output .= "<div class = 'row'>\n\n";
 } 
-$output .= "<div class='".strtolower($players[$i]['position'])."'>";
+
+$output .= "<form class='".strtolower($players[$i]['position'])."' method='post' action='form.php'>\n\n";
+
+
+foreach($players[$i] as $attr=>$val){
+	
+	$output .= "<input type='hidden' name='$attr' value='$val' />\n\n";
+}
+
+$output .= "<input type='submit' value='";
 
 if($players[$i]['star']){
   $output .= "&star; ";
 }
-  
-$output .= "{$players[$i]['name']}: {$players[$i]['points']}<br/><sup>{$players[$i]['club']}</sup></div>\n\n";
 
+$output .= "{$players[$i]['name']}: {$players[$i]['points']}'><br/><label>{$players[$i]['club']}</label>\n\n</form>\n\n";
 
 if ( $players[$i]['position'] != $players[$i + 1]['position'] || $i == 10 ){
 $output .= "</div>";
