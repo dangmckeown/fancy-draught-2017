@@ -95,7 +95,7 @@ $samg = array(
 (["Hazard", "Chelsea", "Midfielder"]), 
 (["Eriksen", "Spurs", "Midfielder"]), 
 (["Bernardo Silva", "Man City","Midfielder"]), 
-(["Arnautović", "West Ham","Midfielder"]),
+(["Arnautovic", "West Ham","Forward"]),
 (["Brady", "Burnley","Midfielder"]),
 (["King",	"Bournemouth","Forward"]),
 (["Gabbiadini", 0,"Forward"]),
