@@ -189,7 +189,7 @@ $christ = array(
 (['Vrancic','Norwich','Midfielder']),
 (['Kane','Spurs','Forward']),
 (['Calvert-Lewin','Everton','Forward']),
-(['Ings','Southampton','Forward']),
+(['Ings','Southampton','Forward'])
 )
 );
 
@@ -225,7 +225,7 @@ $samba = array(
 (['Roberts','Norwich','Midfielder']),
 (['Agüero','Man City','Forward']),
 (['Deulofeu','Watford','Forward']),
-(['Haller','West Ham','Forward']),
+(['Haller','West Ham','Forward'])
 )
 );
 
