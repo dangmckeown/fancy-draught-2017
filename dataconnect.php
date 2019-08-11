@@ -5,102 +5,55 @@ include_once('playerfunctions.php');
 
 
 
-$fh = file_get_contents('https://fantasy.premierleague.com/player-list/');
-#$fh = file_get_contents('player-list.htm');
+$fh = json_decode(file_get_contents('https://fantasy.premierleague.com/api/bootstrap-static'));
 
+$positions = array(
+1 => 'Goalkeeper',
+2 => 'Defender',
+3 => 'Midfielder',
+4 => 'Forward'
+);
 
-$first = explode("<h2>",$fh);
+$clubs = array();
 
-$second = array();
-
-$third = array();
-
-$fourth = array();
-
-$players=array();
-
-$discard = array_shift($first);
-
-#$second = explode("<tr>",$first);
-
-foreach ($first as $f){
-$second[] = explode("</h2>",$f);
+foreach($fh->teams as $team)
+{
+    $clubs[$team->id] = $team->name;
 }
 
-foreach($second as $s){
-$third[preg_replace("/s$/","",$s[0])] = explode("<tr>",str_replace("<td>",",",$s[1]));
-#preg_replace("/s$/","",$s[0]);
-}
+$data = $fh->elements;
 
-foreach($third as $k => $thi){
-foreach($thi as $th){
-$fourth[$k][] = explode(",",$th);
-}
-}
+$players = array();
 
-$i=0;
+$i = 0;
 
-foreach($fourth as $k=>$fours){
-foreach($fours as $four){
-if (count($four) >= 4){
-$players[$i]['name'] = trim((string)strip_tags($four[1]));
-$players[$i]['club'] = trim((string)strip_tags($four[2]));
-$players[$i]['position'] = (string)$k;
-$players[$i]['points'] = (int)$four[3];
-$losepound = explode("£",$four[4]);
-$players[$i]['value'] = (float)$losepound[1];
+foreach($data as $datum){
 
-
-
-$test = ([ $players[$i]['name'],$players[$i]['club'],$players[$i]['position'] ]);
 foreach ($teams as $team){
 
 foreach($team['Players'] as $picked){
 
-$compare = ([ $picked[0],$picked[1],$picked[2] ]);
+if($picked == $datum->id){
 
-if($test == $compare){
+$players[$i] = array(
+    'manager' => $team['Name'],
+    'name' => $datum->web_name,
+    'position' => $positions[$datum->element_type],
+    'club' => $clubs[$datum->team],
+    'points' => $datum->total_points,
+    'value' => $datum->now_cost / 10
 
-$players[$i]['manager'] = $team['Name'];
-
-}
-
-}
-
-}
-
-}
+);
 
 $i++;
-} 
-
-}
-
-
-
-
-
-
-//add absent friends
-
-foreach($teams as $team){
-foreach($team['Players'] as $picked){
-
-if (is_int($picked[1])){
-
-#var_dump($picked);
-
-$players[$i]['name'] = trim($picked[0]);
-$players[$i]['club'] = $picked[1];
-$players[$i]['position'] = $picked[2];
-$players[$i]['points'] = $picked[1];
-$players[$i]['value'] = "0" ;
-$players[$i]['manager'] = $team['Name'];
-
-}
-$i++;
 }
 
 }
+
+}
+
+}
+
+
 
 $players = by_position(array_filter($players,"selected"));
