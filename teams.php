@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 //Try to save as UTF-8
 //Monster array with
@@ -10,21 +10,21 @@ $pete = array(
 'Filter' => "petesteam",
 'Team' => "Bearded Pete's Salty Buccaneers",
 'Players' => array(
-(['Alisson','Liverpool','Goalkeeper']),
-(['Leno','Arsenal','Goalkeeper']),
-(['Laporte','Man City','Defender']),
-(['Digne','Everton','Defender']),
-(['Lindelöf','Man Utd','Defender']),
-(['Sánchez','Spurs','Defender']),
-(['Tarkowski','Burnley','Defender']),
-(['Fraser','Bournemouth','Midfielder']),
-(['Zaha','Crystal Palace','Midfielder']),
-(['Felipe Anderson','West Ham','Midfielder']),
-(['Tielemans','Leicester','Midfielder']),
-(['Buendía','Norwich','Midfielder']),
-(['Jiménez','Wolves','Forward']),
-(['Giroud','Chelsea','Forward']),
-(['Adams','Southampton','Forward'])
+    189,
+    14,
+    202,
+    141,
+    225,
+    333,
+    84,
+    75,
+    133,
+    390,
+    448,
+    283,
+    450,
+    110,
+    437
 )
 //remember to insert commas
 ); //End $pete
@@ -34,21 +34,21 @@ $twm = array(
 'Filter' => "twmsteam",
 'Team' => "Positionally Challenged AFC",
 'Players' => array(
-(['Ederson','Liverpool','Goalkeeper']),
-(['Hennessey','Burnley','Goalkeeper']),
-(['Robertson','Wolves','Goalkeeper']),
-(['Shaw','Man Utd','Defender']),
-(['Alderweireld','Spurs','Defender']),
-(['Aké','Bournemouth','Defender']),
-(['Dunk','Brighton','Defender']),
-(['Richarlison','Spurs','Midfielder']),
-(['Pedro','Chelsea','Midfielder']),
-(['Maddison','Crystal Palace','Midfielder']),
-(['Ward-Prowse','Norwich','Midfielder']),
-(['Neves','West Ham','Midfielder']),
-(['Aubameyang','Man City','Forward']),
-(['Barnes','Bournemouth','Forward']),
-(['Pukki','Burnley','Forward'])
+    212,
+    132,
+    181,
+    226,
+    331,
+    59,
+    42,
+    150,
+    114,
+    171,
+    321,
+    104,
+    11,
+    90,
+    278
 )
 //remember to insert commas
 ); //End $twm
@@ -58,23 +58,23 @@ $holly = array(
 
 'Filter' => "hollysteam",
 
-'Team' => "Default Team Name Memorial XV",
+'Team' => "The Alisson Memorial In Adrian We Believe Clean Sheet XI",
 'Players' => array(
-(['Schmeichel','Leicester','Goalkeeper']),
-(['Moore','Sheffield Utd','Goalkeeper']),
-(['van Dijk','Liverpool','Defender']),
-(['David Luiz','Chelsea','Defender']),
-(['Wan-Bissaka','Man Utd','Defender']),
-(['Keane','Everton','Defender']),
-(['Duffy','Brighton','Defender']),
-(['Sané','Man City','Midfielder']),
-(['Alli','Spurs','Midfielder']),
-(['Redmond','Southampton','Midfielder']),
-(['Doucouré','Watford','Midfielder']),
-(['Westwood','Burnley','Midfielder']),
-(['Lacazette','Arsenal','Forward']),
-(['King','Bournemouth','Forward']),
-(['Jota','Wolves','Forward'])
+    168,
+    436,
+    183,
+    106,
+    122,
+    143,
+    37,
+    216,
+    344,
+    320,
+    368,
+    101,
+    12,
+    68,
+    410
 )
 //remember to insert commas
 ); //End $holly
@@ -85,21 +85,21 @@ $samg = array(
 
 'Team' => "In Rashford We Trust Vossi Bop Mad Fam Boujee XI",
 'Players' => array(
-(['Dubravka','Newcastle','Goalkeeper']),
-(['Ryan','Brighton','Goalkeeper']),
-(['Kolasinac','Arsenal','Defender']),
-(['Coleman','Everton','Defender']),
-(['Jonny','Wolves','Defender']),
-(['Holebas','Watford','Defender']),
-(['Taylor','Burnley','Defender']),
-(['Bernardo Silva','Man City','Midfielder']),
-(['Lucas Moura','Spurs','Midfielder']),
-(['Pulisic','Chelsea','Midfielder']),
-(['Townsend','Crystal Palace','Midfielder']),
-(['Fleck','Sheffield Utd','Midfielder']),
-(['Firmino','Liverpool','Forward']),
-(['Rashford','Man Utd','Forward']),
-(['Wilson','Bournemouth','Forward'])
+    262,
+    47,
+    3,
+    144,
+    402,
+    353,
+    87,
+    218,
+    345,
+    431,
+    135,
+    301,
+    187,
+    233,
+    67
 )
 //remember to insert commas
 ); //End $samg
@@ -112,21 +112,21 @@ $joe = array(
 
 'Team' => "Default Team Name Memorial XV",
 'Players' => array(
-(["Heaton", "Burnley", "Goalkeeper"]),
-(["Gomes", "Watford", "Goalkeeper"]),
-(["Daniels", "Bournemouth", "Defender"]),
-(["Williams", 0, "Defender"]),
-(["Pieters", 0, "Defender"]),
-(["David Luiz", "Chelsea", "Defender"]),
-(["Dawson", 0, "Defender"]),
-(["Pogba", "Man Utd", "Midfielder"]),
-(["David Silva", "Man City", "Midfielder"]),
-(["Son", "Spurs", "Midfielder"]),
-(["Sigurdsson", "Everton", "Midfielder"]),
-(["Coutinho", 0, "Midfielder"]),
-(["Giroud", "Chelsea", "Forward"]),
-(["Carroll", "West Ham", "Forward"]),
-(["Vardy", "Leicester", "Forward"])
+    95,
+    388,
+    274,
+    162,
+    404,
+    359,
+    255,
+    488,
+    200,
+    343,
+    113,
+    240,
+    496,
+    428,
+    211
 //remember to insert commas
 )
 );
@@ -145,21 +145,21 @@ $dan = array(
 
 'Team' => "One toe in an offside position stick it up your VARse Memorial XV",
 'Players' => array(
-(['Kepa','Chelsea','Goalkeeper']),
-(['Lloris','Spurs','Goalkeeper']),
-(['van Aanholt','Crystal Palace','Defender']),
-(['Ritchie','Newcastle','Defender']),
-(['Boly','Wolves','Defender']),
-(['Lewis','Norwich','Defender']),
-(['Cathcart','Watford','Defender']),
-(['Salah','Liverpool','Midfielder']),
-(['De Bruyne','Man City','Midfielder']),
-(['Sigurdsson','Everton','Midfielder']),
-(['Brooks','Bournemouth','Midfielder']),
-(['McGinn','Aston Villa','Midfielder']),
-(['Vardy','Leicester','Forward']),
-(['Murray','Brighton','Forward']),
-(['Sharp','Sheffield Utd','Forward'])
+    111,
+    340,
+    123,
+    251,
+    405,
+    276,
+    358,
+    191,
+    215,
+    151,
+    76,
+    31,
+    166,
+    44,
+    298
 )
 );
 
@@ -173,23 +173,23 @@ $christ = array(
 
 'Filter' => "christsteam",
 
-'Team' => "Default Team Name Memorial XV",
+'Team' => "Prime Minister Dominic Raab Battles The Undead Zombie Hordes Memorial XV",
 'Players' => array(
-(['de Gea','Man Utd','Goalkeeper']),
-(['Foster','Watford','Goalkeeper']),
-(['Azpilicueta','Chelsea','Defender']),
-(['Pereira','Leicester','Defender']),
-(['Doherty','Wolves','Defender']),
-(['Bellerín','Arsenal','Defender']),
-(['Stevens','Sheffield Utd','Defender']),
-(['Sterling','Man City','Midfielder']),
-(['Mané','Liverpool','Midfielder']),
-(['Milivojevic','Crystal Palace','Midfielder']),
-(['Antonio','West Ham','Midfielder']),
-(['Vrancic','Norwich','Midfielder']),
-(['Kane','Spurs','Forward']),
-(['Calvert-Lewin','Everton','Forward']),
-(['Ings','Southampton','Forward'])
+    235,
+    366,
+    105,
+    159,
+    401,
+    2,
+    291,
+    214,
+    192,
+    134,
+    389,
+    282,
+    338,
+    147,
+    313
 )
 );
 
@@ -209,23 +209,23 @@ $samba = array(
 
 'Filter' => "sambasteam",
 
-'Team' => "Default Team Name Memorial XV",
+'Team' => "Boris Johnson’s illegitimate children XV (* alleged)",
 'Players' => array(
-(['Guaita','Crystal Palace','Goalkeeper']),
-(['Patrício','Wolves','Goalkeeper']),
-(['Alexander-Arnold','Liverpool','Defender']),
-(['Alonso','Chelsea','Defender']),
-(['Mee','Burnley','Defender']),
-(['Schär','Newcastle','Defender']),
-(['Bertrand','Southampton','Defender']),
-(['Son','Spurs','Midfielder']),
-(['Bernard','Everton','Midfielder']),
-(['Pérez','Leicester','Midfielder']),
-(['Grealish','Aston Villa','Midfielder']),
-(['Roberts','Norwich','Midfielder']),
-(['Agüero','Man City','Forward']),
-(['Deulofeu','Watford','Forward']),
-(['Haller','West Ham','Forward'])
+    131,
+    411,
+    182,
+    103,
+    83,
+    252,
+    305,
+    342,
+    152,
+    265,
+    29,
+    435,
+    210,
+    363,
+    457
 )
 );
 
